@@ -12,7 +12,7 @@ body {
     overflow: hidden;
 }
 
-/* 📦 Container Box */
+/* 📦 Container Box (Grows when the letter slides out) */
 .container {
     max-width: 450px;
     width: 90%;
@@ -22,6 +22,8 @@ body {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
     position: relative;
+    transition: height 0.5s ease-in-out;
+    overflow: visible;
 }
 
 /* 💖 Title Styling */
@@ -82,7 +84,7 @@ body {
     transform: translateY(50px);
     transition: all 0.8s ease-in-out;
     position: relative;
-    top: -50px;
+    top: 0;
 }
 
 /* 📩 Open Envelope Animation */
@@ -90,7 +92,7 @@ body {
     transform: rotateX(140deg);
 }
 
-.open + .letter {
+.open .letter {
     opacity: 1;
     transform: translateY(-100px);
 }
@@ -117,7 +119,9 @@ body {
     background: #e03570;
 }
 
-
-.hidden {
-    display: none;
+/* 🎉 Fixing Cut-Off Issue */
+.open .container {
+    height: auto !important;
+    padding-bottom: 50px;
+    overflow: visible;
 }
