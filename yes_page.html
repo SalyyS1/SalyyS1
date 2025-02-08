@@ -4,47 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thư Tình Cho Em 💌</title>
-    <link rel="stylesheet" href="mailbox_style.css">
+    <link rel="stylesheet" href="yes_style.css">
 </head>
 <body>
     <div class="container">
-        <!-- First Text -->
+        <!-- First Message -->
         <h1 class="header_text fade-in" id="line1">Anh biết là em yêu anh mà 💖</h1>
-        
-        <!-- Second Text (Delayed) -->
-        <p class="sub_text fade-in hidden" id="line2">Đây là bức thư của anh, em hãy lấy nó ra ✉️</p>
 
-        <!-- Mailbox with Letter -->
+        <!-- Second Message (Appears later) -->
+        <p class="sub_text hidden fade-in" id="line2">Đây là bức thư của anh, em hãy lấy nó ra ✉️</p>
+
+        <!-- Mailbox with Lid & Letter -->
         <div class="mailbox">
-            <div class="mailbox-lid"></div>
+            <div class="mailbox-lid" id="lid"></div>
             <div class="mailbox-body"></div>
-            <div class="mailbox-letter hidden" id="letter"></div>
+            <div class="mailbox-letter hidden" id="letter">💌</div>
         </div>
 
-        <!-- Button Appears Last -->
+        <!-- Button to Take the Letter -->
         <button class="take_letter_button hidden fade-in" id="takeLetterBtn" onclick="takeLetter()">📩 Lấy thư ra</button>
     </div>
 
     <script>
-        // Text Appears Sequentially
+        // Show each text one by one
         setTimeout(() => document.getElementById("line2").classList.remove("hidden"), 1500);
         setTimeout(() => document.getElementById("takeLetterBtn").classList.remove("hidden"), 3000);
 
         function takeLetter() {
             const letter = document.getElementById("letter");
+            const lid = document.getElementById("lid");
             const button = document.getElementById("takeLetterBtn");
 
-            // Letter Peeks Out First
-            letter.classList.add("peek");
+            // Lid opens
+            lid.classList.add("open-lid");
 
-            // Letter Fully Slides Out
-            setTimeout(() => letter.classList.add("slide_out"), 1000);
+            // Letter slides out after lid opens
+            setTimeout(() => {
+                letter.classList.remove("hidden");
+                letter.classList.add("slide_out");
+            }, 800);
 
-            // Hide Button & Redirect After Animation
+            // Confetti hearts appear
+            setTimeout(() => createHearts(), 1200);
+
+            // Hide button & redirect after animation
             setTimeout(() => {
                 button.style.display = "none";
-                window.location.href = "next_page.html"; // Redirect to next page
+                window.location.href = "next_page.html";
             }, 2500);
+        }
+
+        function createHearts() {
+            for (let i = 0; i < 15; i++) {
+                let heart = document.createElement("div");
+                heart.className = "heart";
+                heart.style.left = Math.random() * 100 + "vw";
+                heart.style.animationDuration = Math.random() * 2 + 3 + "s";
+                document.body.appendChild(heart);
+                setTimeout(() => heart.remove(), 5000);
+            }
         }
     </script>
 </body>
