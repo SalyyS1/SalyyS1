@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="letter_style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="container">
         <h1 class="title">💌 Bức thư đặc biệt này dành cho Linh 💖</h1>
 
         <!-- Envelope -->
@@ -34,13 +34,20 @@
 
     <script>
         function openLetter() {
-            document.getElementById("envelope").classList.add("open");
+            const envelope = document.getElementById("envelope");
+            const letter = document.getElementById("letter");
+            const container = document.getElementById("container");
 
-            // Delay before revealing the letter
+            // Open the envelope
+            envelope.classList.add("open");
+
+            // Expand the container to fit the letter
             setTimeout(() => {
-                document.getElementById("letter").style.visibility = "visible";
-                document.getElementById("letter").style.opacity = "1";
-                document.getElementById("letter").style.transform = "translateY(-100px)";
+                letter.style.visibility = "visible";
+                letter.style.opacity = "1";
+                letter.style.transform = "translateY(0)";
+                container.style.height = "auto";  // Let the container grow naturally
+                container.style.paddingBottom = "50px";
             }, 600);
         }
 
