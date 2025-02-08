@@ -15,39 +15,38 @@
             <div class="flap"></div>
             <div class="body"></div>
             <button class="open_button" onclick="openLetter()">Mở thư ra nào 💌</button>
+
+            <!-- Love Letter Inside Envelope -->
+            <div class="letter" id="letter">
+                <p class="letter_text">
+                    Gửi công chúa,  
+                    <br><br>
+                    Mỗi ngày được thấy em là một điều may mắn. Em làm cho cuộc sống của tui thú vị hơn.
+                    <br><br>
+                    Niềm vui của tui được nhân lên vạn lần khi trò chuyện cùng em.
+                    <br><br>
+                    Cảm ơn em rất nhìu! Iu em vaiii 💕
+                </p>
+            </div>
         </div>
 
-        <!-- Love Letter (Initially Hidden) -->
-        <div class="letter" id="letter">
-            <p class="letter_text">
-                Gửi công chúa,  
-                <br><br>
-                Mỗi ngày được thấy em là một điều may mắn. Em làm cho cuộc sống của tui thú vị hơn.
-                <br><br>
-                Niềm vui của tui được nhân lên vạn lần khi trò chuyện cùng em.
-                <br><br>
-                Cảm ơn em rất nhìu! Iu em vaiii 💕
-            </p>
-            <button class="hug_button" onclick="sendHugs()">Ôm em 🤗</button>
-        </div>
+        <button class="hug_button hidden" id="hugButton" onclick="sendHugs()">Ôm em 🤗</button>
     </div>
 
     <script>
         function openLetter() {
             const envelope = document.getElementById("envelope");
             const letter = document.getElementById("letter");
-            const container = document.getElementById("container");
+            const hugButton = document.getElementById("hugButton");
 
             // Open the envelope
             envelope.classList.add("open");
 
-            // Expand the container to fit the letter
+            // Reveal the letter
             setTimeout(() => {
                 letter.style.visibility = "visible";
                 letter.style.opacity = "1";
-                letter.style.transform = "translateY(0)";
-                container.style.height = "auto";  // Let the container grow naturally
-                container.style.paddingBottom = "50px";
+                hugButton.classList.remove("hidden");
             }, 600);
         }
 
