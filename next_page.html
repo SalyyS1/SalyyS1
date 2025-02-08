@@ -3,21 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Love Letter to You 💌</title>
+    <title>Open Your Love Letter 💌</title>
     <link rel="stylesheet" href="letter_style.css">
 </head>
 <body>
     <div class="container">
-        <h1>My Love Letter to You 💖</h1>
-        <p class="letter">
-            My dearest love,  
-            <br><br>
-            Every day with you is a blessing. You make my world brighter, my heart happier, and my life more beautiful.  
-            <br><br>
-            Thank you for being you. I love you so much! 💕
-        </p>
+        <h1 class="title">💌 A Special Letter for You 💖</h1>
 
-        <button class="hug_button">Send Virtual Hugs 🤗</button>
+        <!-- Envelope (Closed) -->
+        <div class="envelope" id="envelope">
+            <div class="flap"></div>
+            <div class="body"></div>
+            <button class="open_button" onclick="openLetter()">Open Letter 💌</button>
+        </div>
+
+        <!-- Love Letter (Initially Hidden) -->
+        <div class="letter hidden" id="letter">
+            <p class="letter_text">
+                My dearest love,  
+                <br><br>
+                Every day with you is a blessing. You make my world brighter, my heart happier, and my life more beautiful.  
+                <br><br>
+                Thank you for being you. I love you so much! 💕
+            </p>
+            <button class="hug_button" onclick="sendHugs()">Send Virtual Hugs 🤗</button>
+        </div>
     </div>
+
+    <script>
+        function openLetter() {
+            document.getElementById("envelope").classList.add("open");
+            document.getElementById("letter").classList.remove("hidden");
+        }
+
+        function sendHugs() {
+            alert("💖 Sending you the warmest virtual hugs! 🤗💞");
+        }
+    </script>
 </body>
 </html>
