@@ -1,80 +1,96 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #ffebf0;
+    background-color: #ffe6f0;
     text-align: center;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin: 0;
 }
 
 .container {
-    max-width: 500px;
+    max-width: 400px;
     background: white;
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 12px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-    animation: fadeIn 1s ease-in-out;
+    text-align: center;
+    position: relative;
 }
 
 .header_text {
-    font-size: 28px;
+    font-size: 22px;
     color: #ff4081;
     font-weight: bold;
-    text-shadow: 2px 2px 5px rgba(255, 64, 129, 0.3);
-    animation: glow 2s infinite alternate;
+    margin-bottom: 20px;
 }
 
+/* MAILBOX DESIGN */
+.mailbox {
+    position: relative;
+    width: 120px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.mailbox-door {
+    width: 120px;
+    height: 40px;
+    background-color: #ff6699;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: 0;
+}
+
+.mailbox-body {
+    width: 120px;
+    height: 110px;
+    background-color: #ff4081;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+/* LETTER INSIDE */
+.mailbox-letter {
+    width: 100px;
+    height: 70px;
+    background: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 1.5s ease-in-out;
+}
+
+/* Letter animation */
+.slide_out {
+    transform: translateY(-120px);
+}
+
+/* MESSAGE & BUTTON */
 .sub_text {
-    font-size: 18px;
-    color: #444;
-    margin-top: 8px;
+    font-size: 16px;
+    color: #333;
+    margin-top: 15px;
 }
 
-.gif_container {
-    margin: 15px 0;
-}
-
-.gif_container img {
-    width: 100%;
-    border-radius: 12px;
-    transition: transform 0.5s ease-in-out;
-}
-
-.gif_container img:hover {
-    transform: scale(1.05);
-}
-
-.continue_button {
-    font-size: 18px;
-    padding: 12px 24px;
+.take_letter_button {
+    font-size: 16px;
+    padding: 10px 20px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     background: #ff4081;
     color: white;
-    font-weight: bold;
     transition: all 0.3s ease;
-    margin-top: 15px;
-    box-shadow: 0px 4px 10px rgba(255, 64, 129, 0.3);
+    margin-top: 10px;
 }
 
-.continue_button:hover {
+.take_letter_button:hover {
     transform: scale(1.1);
     background: #e03570;
-    box-shadow: 0px 6px 12px rgba(255, 64, 129, 0.4);
-}
-
-/* Smooth fade-in effect */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-/* Glowing effect for the text */
-@keyframes glow {
-    from { text-shadow: 2px 2px 10px rgba(255, 64, 129, 0.5); }
-    to { text-shadow: 2px 2px 20px rgba(255, 64, 129, 0.8); }
 }
