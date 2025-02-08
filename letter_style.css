@@ -1,3 +1,4 @@
+/* 🌸 General Page Styling */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #ffe6f0;
@@ -8,121 +9,83 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    overflow: hidden;
 }
 
+/* 📦 Container Box */
 .container {
-    max-width: 400px;
+    max-width: 450px;
+    width: 90%;
     background: white;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
     position: relative;
-    overflow: hidden;
 }
 
+/* 💖 Title Styling */
 .title {
-    font-size: 24px;
+    font-size: 22px;
     color: #ff4081;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-/* ENVELOPE */
+/* 💌 Envelope */
 .envelope {
-    width: 180px;
-    height: 120px;
     position: relative;
+    width: 160px;
+    height: 120px;
     margin: 0 auto;
-    transition: transform 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+/* ✉️ Envelope Flap */
 .flap {
     width: 0;
     height: 0;
-    border-left: 90px solid transparent;
-    border-right: 90px solid transparent;
-    border-bottom: 60px solid #ff4081;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 50px solid #ff6699;
     position: absolute;
     top: 0;
-    left: 0;
-    transition: transform 0.8s ease-in-out;
+    transition: transform 0.6s ease-in-out;
 }
 
+/* 📩 Envelope Body */
 .body {
-    width: 180px;
+    width: 160px;
     height: 100px;
-    background-color: #ff6699;
+    background-color: #ff4081;
     position: absolute;
     bottom: 0;
-    left: 0;
     border-radius: 5px;
 }
 
-.open_button {
-    margin-top: 130px;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    background: #ff4081;
-    color: white;
-    transition: all 0.3s ease;
-}
-
-.open_button:hover {
-    background: #e03570;
-    transform: scale(1.1);
-}
-
-/* Letter Animation */
+/* 📄 Letter Inside */
 .letter {
-    width: 100%;
+    width: 85%;
+    max-width: 300px;
     background: #fff0f6;
     border: 2px solid #ff4081;
     border-radius: 10px;
     padding: 20px;
-    margin-top: 20px;
+    margin: 20px auto;
     box-shadow: 0px 4px 12px rgba(255, 64, 129, 0.3);
     font-size: 16px;
-    line-height: 1.8;
-    text-align: left;
+    line-height: 1.6;
+    text-align: center;
     opacity: 0;
     transform: translateY(50px);
     transition: all 0.8s ease-in-out;
 }
 
-.letter_text {
-    font-style: italic;
-    color: #444;
-}
-
-.hug_button {
-    display: block;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    background: #ff4081;
-    color: white;
-    transition: all 0.3s ease;
-    margin: 20px auto 0;
-}
-
-.hug_button:hover {
-    background: #e03570;
-    transform: scale(1.1);
-}
-
-/* Envelope opens and reveals letter */
+/* 📩 Open Envelope Animation */
 .open .flap {
-    transform: rotateX(180deg);
-}
-
-.open .body {
-    transform: translateY(-80px);
+    transform: rotateX(140deg);
 }
 
 .open + .letter {
@@ -130,6 +93,29 @@ body {
     transform: translateY(0);
 }
 
+/* 🎀 Buttons */
+.open_button, .hug_button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #ff4081;
+    color: white;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin: 10px auto;
+}
+
+.open_button:hover, .hug_button:hover {
+    transform: scale(1.1);
+    background: #e03570;
+}
+
+/* 🎉 Hidden Elements Initially */
 .hidden {
     display: none;
 }
