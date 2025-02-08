@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title">💌 Bức thư đặc biệt này dành cho Linh💖</h1>
+        <h1 class="title">💌 Bức thư đặc biệt này dành cho Linh 💖</h1>
 
         <!-- Envelope -->
         <div class="envelope" id="envelope">
@@ -18,13 +18,13 @@
         </div>
 
         <!-- Love Letter (Initially Hidden) -->
-        <div class="letter hidden" id="letter">
+        <div class="letter" id="letter">
             <p class="letter_text">
                 Gửi công chúa,  
                 <br><br>
-                Mỗi ngày được thấy em là một điều may mắn. Em làm cho cuộc sống của tui thú vị hơn,
+                Mỗi ngày được thấy em là một điều may mắn. Em làm cho cuộc sống của tui thú vị hơn.
                 <br><br>
-                niềm vui của tui được nhân lên vạn lần khi trò chuyện cùng em.
+                Niềm vui của tui được nhân lên vạn lần khi trò chuyện cùng em.
                 <br><br>
                 Cảm ơn em rất nhìu! Iu em vaiii 💕
             </p>
@@ -35,7 +35,13 @@
     <script>
         function openLetter() {
             document.getElementById("envelope").classList.add("open");
-            document.getElementById("letter").classList.remove("hidden");
+
+            // Delay before revealing the letter
+            setTimeout(() => {
+                document.getElementById("letter").style.visibility = "visible";
+                document.getElementById("letter").style.opacity = "1";
+                document.getElementById("letter").style.transform = "translateY(-100px)";
+            }, 600);
         }
 
         function sendHugs() {
