@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mở bức thư của anh ra nè 💌</title>
+    <title>Thư Siêu Xinhh  💌</title>
     <link rel="stylesheet" href="letter_style.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="title">💌 Bức thư đặc biệt này dành cho Linh💖</h1>
+    <div class="container" id="container">
+        <h1 class="title">💌 Thư Siêu Xinh Cho Linh 💖</h1>
 
         <!-- Envelope -->
         <div class="envelope" id="envelope">
@@ -17,23 +17,32 @@
             <button class="open_button" onclick="openLetter()">Mở thư ra nào 💌</button>
         </div>
 
-        <!-- Love Letter (Initially Hidden) -->
-        <div class="letter hidden" id="letter">
+        <!-- Love Letter Inside Envelope -->
+        <div class="letter" id="letter">
             <p class="letter_text">
                 Gửi công chúa,
                 <br><br>
-                Anh chỉ muốn nói là anh iu em vai luôn ấy ehe, anh chúc em mãi mãi sinh đẹp, đáng iu và vui vẻ nhe.
+                Anh chỉ muốn nói là... Iu em vai ca cut luôn ấy. Chúc em luôn luôn vui vẻ, mau ăn chóng lớn, lần sau đi làm đừng bể ly nữa nha!
                 <br><br>
                 Cảm ơn em rất nhìu! Iu em vaiii 💕
             </p>
-            <button class="hug_button" onclick="sendHugs()">Ôm em 🤗</button>
         </div>
+
+        <button class="hug_button" id="hugButton" onclick="sendHugs()">Ôm em 🤗</button>
     </div>
 
     <script>
         function openLetter() {
-            document.getElementById("envelope").classList.add("open");
-            document.getElementById("letter").classList.remove("hidden");
+            const container = document.getElementById("container");
+            const envelope = document.getElementById("envelope");
+            const letter = document.getElementById("letter");
+            const hugButton = document.getElementById("hugButton");
+
+            // Add "open" class to animate everything
+            container.classList.add("open");
+            envelope.classList.add("open");
+            letter.classList.add("open");
+            hugButton.classList.add("open");
         }
 
         function sendHugs() {
