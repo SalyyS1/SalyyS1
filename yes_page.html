@@ -9,10 +9,10 @@
 <body>
     <div class="container">
         <h1 class="header_text">I KNEW IT! 😍</h1>
-        <p class="sub_text">You make me the happiest! 💕</p>
+        <p class="sub_text">You make me the happiest person in the world! 💕</p>
 
         <div class="gif_container">
-            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmo3c3l5ODh3ZGN6NHhhaDE2Mjg1ZjkwOXczdDFxbWM3dTBtaW9zaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/9XY4f3FgFTT4QlaYqa/giphy.gif" alt="Happy Love GIF">
+            <img id="happyGif" src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" alt="Happy Love GIF">
         </div>
 
         <button class="continue_button" onclick="goToNextPage()">💘 Continue 💘</button>
@@ -20,8 +20,10 @@
 
     <script>
         function goToNextPage() {
-            alert("Let's celebrate our love! 💞");
-            window.location.href = "next_page.html";  // Change this to your next page
+            document.getElementById("happyGif").src = "https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif"; // Change GIF before transition
+            setTimeout(() => {
+                window.location.href = "next_page.html";  // Redirect to the next page after 2 seconds
+            }, 2000);
         }
     </script>
 </body>
