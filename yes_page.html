@@ -8,41 +8,42 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="header_text" id="line1">Anh biết là em yêu anh mà 💖</h1>
-        <p class="sub_text hidden" id="line2">Đây là bức thư của anh, em hãy lấy nó ra ✉️</p>
+        <!-- First Text -->
+        <h1 class="header_text fade-in" id="line1">Anh biết là em yêu anh mà 💖</h1>
+        
+        <!-- Second Text (Delayed) -->
+        <p class="sub_text fade-in hidden" id="line2">Đây là bức thư của anh, em hãy lấy nó ra ✉️</p>
 
-        <!-- Mailbox -->
+        <!-- Mailbox with Letter -->
         <div class="mailbox">
-            <div class="mailbox-door"></div>
+            <div class="mailbox-lid"></div>
             <div class="mailbox-body"></div>
             <div class="mailbox-letter hidden" id="letter"></div>
         </div>
 
-        <button class="take_letter_button hidden" id="takeLetterBtn" onclick="takeLetter()">📩 Lấy thư ra</button>
+        <!-- Button Appears Last -->
+        <button class="take_letter_button hidden fade-in" id="takeLetterBtn" onclick="takeLetter()">📩 Lấy thư ra</button>
     </div>
 
     <script>
-        // Show text line by line with delay
-        setTimeout(() => {
-            document.getElementById("line2").classList.remove("hidden");
-        }, 1500);
-
-        setTimeout(() => {
-            document.getElementById("takeLetterBtn").classList.remove("hidden");
-        }, 3000);
+        // Text Appears Sequentially
+        setTimeout(() => document.getElementById("line2").classList.remove("hidden"), 1500);
+        setTimeout(() => document.getElementById("takeLetterBtn").classList.remove("hidden"), 3000);
 
         function takeLetter() {
             const letter = document.getElementById("letter");
             const button = document.getElementById("takeLetterBtn");
 
-            // Move the letter out of the mailbox
-            letter.classList.remove("hidden");
-            letter.classList.add("slide_out");
+            // Letter Peeks Out First
+            letter.classList.add("peek");
 
-            // Hide button after animation
+            // Letter Fully Slides Out
+            setTimeout(() => letter.classList.add("slide_out"), 1000);
+
+            // Hide Button & Redirect After Animation
             setTimeout(() => {
                 button.style.display = "none";
-                window.location.href = "next_page.html"; // Redirect after animation
+                window.location.href = "next_page.html"; // Redirect to next page
             }, 2500);
         }
     </script>
