@@ -3,26 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Knew You Would Say Yes! 💖</title>
-    <link rel="stylesheet" href="./yes_style.css">
+    <title>Thư Tình Cho Em 💌</title>
+    <link rel="stylesheet" href="mailbox_style.css">
 </head>
 <body>
     <div class="container">
-        <h1 class="header_text">I KNEW IT! 😍</h1>
-        <p class="sub_text">You make me the happiest person in the world! 💕</p>
+        <h1 class="header_text">Anh biết là em yêu anh mà 💖</h1>
 
-        <div class="gif_container">
-            <img id="happyGif" src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" alt="Happy Love GIF">
+        <div class="mailbox">
+            <div class="mailbox-door"></div>
+            <div class="mailbox-body"></div>
+            <div class="mailbox-letter" id="letter"></div>
         </div>
 
-        <button class="continue_button" onclick="goToNextPage()">💘 Continue 💘</button>
+        <p class="sub_text" id="message">Đây là bức thư của anh, em hãy lấy nó ra ✉️</p>
+
+        <button class="take_letter_button" id="takeLetterBtn" onclick="takeLetter()">📩 Lấy thư ra</button>
     </div>
 
     <script>
-        function goToNextPage() {
-            document.getElementById("happyGif").src = "https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif"; // Change GIF before transition
+        function takeLetter() {
+            const letter = document.getElementById("letter");
+            const button = document.getElementById("takeLetterBtn");
+            const message = document.getElementById("message");
+
+            // Move the letter out of the mailbox
+            letter.classList.add("slide_out");
+
+            // Hide button and message after animation
             setTimeout(() => {
-                window.location.href = "next_page.html";  // Redirect to the next page after 2 seconds
+                message.style.display = "none";
+                button.style.display = "none";
+                window.location.href = "next_page.html"; // Redirect to the next page
             }, 2000);
         }
     </script>
