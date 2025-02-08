@@ -1,3 +1,4 @@
+/* 🌸 General Styling */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #ffe6f0;
@@ -10,18 +11,7 @@ body {
     margin: 0;
 }
 
-/* Container Styling */
-.container {
-    max-width: 400px;
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    position: relative;
-}
-
-/* Header Text Animation */
+/* 🌟 Text Animations */
 .header_text {
     font-size: 24px;
     color: #ff4081;
@@ -36,51 +26,61 @@ body {
     animation: fadeIn 1.5s ease-in-out;
 }
 
-/* MAILBOX DESIGN */
+/* 💌 Mailbox */
 .mailbox {
     position: relative;
-    width: 140px;
-    height: 170px;
+    width: 160px;
+    height: 180px;
     margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.mailbox-door {
-    width: 140px;
+/* 🏠 Mailbox Lid */
+.mailbox-lid {
+    width: 160px;
     height: 40px;
     background-color: #ff6699;
     border-radius: 10px 10px 0 0;
     position: absolute;
     top: 0;
+    transition: transform 0.5s ease-in-out;
 }
 
+/* 📦 Mailbox Body */
 .mailbox-body {
-    width: 140px;
-    height: 130px;
+    width: 160px;
+    height: 140px;
     background-color: #ff4081;
     border-radius: 0 0 10px 10px;
     position: absolute;
     bottom: 0;
 }
 
-/* LETTER INSIDE */
+/* ✉️ Letter Inside */
 .mailbox-letter {
-    width: 100px;
-    height: 70px;
+    width: 110px;
+    height: 80px;
     background: white;
     position: absolute;
-    bottom: 10px;
-    left: 20px;
+    bottom: 20px;
     border-radius: 5px;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 1.5s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
 
-/* Letter sliding animation */
+/* 👀 Letter Peeks Out First */
+.peek {
+    transform: translateY(-30px);
+}
+
+/* 📩 Letter Slides Out Completely */
 .slide_out {
-    transform: translateY(-150px);
+    transform: translateY(-160px);
 }
 
-/* Button */
+/* 💕 Button */
 .take_letter_button {
     font-size: 16px;
     padding: 10px 20px;
@@ -90,7 +90,7 @@ body {
     background: #ff4081;
     color: white;
     transition: all 0.3s ease;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .take_letter_button:hover {
@@ -98,15 +98,21 @@ body {
     background: #e03570;
 }
 
-/* Fade-in Animation */
+/* ✨ Text Fade-in Effect */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Hidden Elements */
+/* 👻 Hide Elements Initially */
 .hidden {
     opacity: 0;
     visibility: hidden;
     transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+}
+
+/* 🌟 Fade-in for Elements */
+.fade-in {
+    opacity: 1 !important;
+    visibility: visible !important;
 }
