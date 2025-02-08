@@ -1,4 +1,4 @@
-/* 🌸 General Styling */
+/* 🌸 General Page Styling */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #ffe6f0;
@@ -9,9 +9,10 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    overflow: hidden;
 }
 
-/* 🌟 Text Animations */
+/* 🌟 Header Text & Fade-in Effect */
 .header_text {
     font-size: 24px;
     color: #ff4081;
@@ -30,28 +31,30 @@ body {
 .mailbox {
     position: relative;
     width: 160px;
-    height: 180px;
+    height: 200px;
     margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 /* 🏠 Mailbox Lid */
 .mailbox-lid {
     width: 160px;
-    height: 40px;
+    height: 50px;
     background-color: #ff6699;
     border-radius: 10px 10px 0 0;
     position: absolute;
     top: 0;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Open animation for mailbox lid */
+.open-lid {
+    transform: rotateX(140deg);
 }
 
 /* 📦 Mailbox Body */
 .mailbox-body {
     width: 160px;
-    height: 140px;
+    height: 150px;
     background-color: #ff4081;
     border-radius: 0 0 10px 10px;
     position: absolute;
@@ -67,17 +70,15 @@ body {
     bottom: 20px;
     border-radius: 5px;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 1s ease-in-out;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+    transition: transform 1.2s ease-in-out;
 }
 
-/* 👀 Letter Peeks Out First */
-.peek {
-    transform: translateY(-30px);
-}
-
-/* 📩 Letter Slides Out Completely */
+/* 📩 Letter slides out smoothly */
 .slide_out {
-    transform: translateY(-160px);
+    transform: translateY(-180px);
 }
 
 /* 💕 Button */
@@ -98,7 +99,7 @@ body {
     background: #e03570;
 }
 
-/* ✨ Text Fade-in Effect */
+/* ✨ Fade-in Effect */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
@@ -115,4 +116,18 @@ body {
 .fade-in {
     opacity: 1 !important;
     visibility: visible !important;
+}
+
+/* 💖 Heart Confetti Animation */
+.heart {
+    position: fixed;
+    bottom: 0;
+    font-size: 20px;
+    color: #ff4081;
+    animation: floatHearts 5s linear infinite;
+}
+
+@keyframes floatHearts {
+    0% { transform: translateY(0) scale(0.8); opacity: 1; }
+    100% { transform: translateY(-100vh) scale(1.2); opacity: 0; }
 }
