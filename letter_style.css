@@ -103,7 +103,7 @@ body {
     opacity: 0;
     transform: translateY(50px);
     transition: all 1s ease-in-out;
-    font-family: 'Dancing Script', cursive; /* Handwritten style */
+    font-family: 'Poppins', sans-serif;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
