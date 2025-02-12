@@ -3,7 +3,7 @@ const messages = [
     "Em lỡ làm vậy với anh saoo??",
     "Em hết iu anh rùi hả?",
     "Đừng mà...",
-    "Linh dangiu cuti oi!",
+    "Embe dangiu cuti oi!",
     "Nếu em từ chối, anh sẽ khóc nhiều hơn nước sông Hồng nữa..",
     "Anh sẽ rất buồn...",
     "Anh sẽ buồn nhiều nhiều nhiều đấy ...",
