@@ -26,9 +26,9 @@
      <img src="img/cpp.png" width="30px">
 <div>
   
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=SalyyS1&theme=tokyonight&hide_border=true)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=SalyyS1&theme=tokyonight&hide_border=true) ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SalyyS1&theme=tokyonight&layout=compact&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SalyyS1&theme=tokyonight&layout=compact&hide_border=true)
+
 <div>
 </div>
 
