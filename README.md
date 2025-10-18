@@ -13,7 +13,7 @@
   </a>
 </div>
 </div>
-<img src="img/slime.jpeg" width="90px">
+<img src="img/slime.jpeg" width="180px">
 ## ⭐ About me
 
 - 🕶️ `He/him`<br>
