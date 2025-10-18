@@ -14,7 +14,8 @@
 </div>
 </div>
 <img src="img/slime.jpeg">
-## ⭐ About me
+
+**⭐ About me**
 
 - 🕶️ `He/him`<br>
 - 💙 `Math` + `Minecraft` + `Book` + `Anime`
