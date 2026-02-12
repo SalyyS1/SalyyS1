@@ -53,8 +53,12 @@
 ## GitHub Analytics
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SalyyS1&theme=tokyonight&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&cache_seconds=1800" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SalyyS1&theme=tokyonight&layout=compact&hide_border=true&cache_seconds=1800" alt="Top languages" />
+ <img height="170"
+src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SalyyS1&theme=tokyonight" />
+
+ <img height="170"
+src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SalyyS1&theme=tokyonight" />
+
 </div>
 
 ---
