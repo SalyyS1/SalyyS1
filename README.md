@@ -16,7 +16,7 @@
     </a>
   </p>
 
-  <img src="img/2268ab6db7e0d48ce37fd3c856d2f2e7.jpg" alt="Banner" width="860" style="border-radius: 18px; max-width: 100%;" />
+  <img src="img/2268ab6db7e0d48ce37fd3c856d2f2e7.jpg" alt="Banner" />
 </div>
 
 ---
