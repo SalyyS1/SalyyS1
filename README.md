@@ -9,7 +9,7 @@
 </picture>
 </p>
 
-<p align="center"><a href="https://salyyy.site/">Website</a> &nbsp; / &nbsp; <a href="https://discord.gg/WMFcNr23kJ">Discord</a> &nbsp; / &nbsp; <a href="https://github.com/SalyyS1?tab=repositories">Repositories</a></p>
+<p align="center"><a href="https://github.com/SalyyS1/SLClean/releases">Applications</a> &nbsp; / &nbsp; <a href="https://github.com/SalyyS1/SLTerm">Developer tools</a> &nbsp; / &nbsp; <a href="https://discord.gg/WMFcNr23kJ">Contact</a></p>
 
 I’m **Salyyy**, a software builder from **Viet Nam**. I work on desktop applications, developer tools and practical automation — with a growing focus on local-first software and AI-assisted workflows.
 
