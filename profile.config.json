@@ -1,0 +1,18 @@
+{
+  "login": "SalyyS1",
+  "name": "Salyyy",
+  "projects": [
+    { "repo": "SLClean", "category": "01 / DESKTOP UTILITY", "title": "A clearer view of your machine.", "lines": ["SLClean turns disk usage into decisions you can review.", "Inspect caches, duplicates and startup apps. Choose what goes."], "stack": "Rust / Tauri / Windows", "motif": "clean", "status": "RELEASED" },
+    { "repo": "SLTerm", "category": "02 / DEVELOPER WORKSPACE", "title": "SLTerm", "lines": ["A terminal made into a workspace.", "Customized from Wave Terminal."], "stack": "Go / TypeScript / React", "motif": "terminal", "status": "RELEASED" },
+    { "repo": "DiscordsRPC", "category": "03 / DESKTOP INTEGRATIONS", "title": "DiscordsRPC", "lines": ["Your activity, on your own terms.", "Presets, schedules and Spotify presence."], "stack": "TypeScript / Electron / React", "motif": "pulse", "status": "PERSONAL PROJECT" },
+    { "repo": "foliora", "category": "04 / LOCAL-FIRST + AI", "title": "Foliora", "lines": ["Documents into source-backed context.", "Reviewed exports. Optional AI assistance."], "stack": "Rust / Tauri / React", "motif": "kit", "status": "EXPERIMENTAL / v0.1" },
+    { "repo": "discord-bot", "category": "05 / WORKFLOW AUTOMATION", "title": "SylaBot", "lines": ["Community workflows in one dashboard.", "Moderation, tickets and bot management."], "stack": "TypeScript / Next.js / Prisma", "motif": "nodes", "status": "PERSONAL PROJECT" }
+  ],
+  "links": {
+    "website": "https://salyyy.site/",
+    "discord": "https://discord.gg/WMFcNr23kJ",
+    "facebook": "https://www.facebook.com/saly.0105",
+    "instagram": "https://www.instagram.com/saly_0105/",
+    "spotify": "https://open.spotify.com/user/31d4qdaigoosddkp7kn47sfp6od4"
+  }
+}

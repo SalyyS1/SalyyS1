@@ -1,0 +1,19 @@
+{
+  "name": "salyyy-midnight-workshop",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "refresh": "node scripts/fetch-profile-data.mjs && node scripts/render-profile.mjs",
+    "render": "node scripts/render-profile.mjs",
+    "check": "node --test scripts/profile-data.test.mjs && node scripts/validate-profile.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "opentype.js": "1.3.4"
+  },
+  "devDependencies": {
+    "saxes": "6.0.0"
+  }
+}
