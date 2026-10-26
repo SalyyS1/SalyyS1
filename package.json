@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "refresh": "node scripts/fetch-profile-data.mjs && node scripts/render-profile.mjs",
-    "render": "node scripts/render-profile.mjs",
+    "refresh": "node scripts/fetch-profile-data.mjs && node scripts/render-compact.mjs",
+    "render": "node scripts/render-compact.mjs",
     "check": "node --test scripts/profile-data.test.mjs && node scripts/validate-profile.mjs"
   },
   "engines": {
