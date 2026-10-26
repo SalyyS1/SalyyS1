@@ -30,5 +30,7 @@ for (const p of config.projects) {
   assert.ok(readme.includes(`href="https://github.com/${config.login}/${p.repo}"`));
 }
 assert.ok(!readme.includes('moonlit-midautumn'));
-assert.equal(files.length, 36);
-console.log(`Validated ${files.length} SVGs, ${refs.length} image references and all project links.`);
+const expectedAssets = ['hero', 'project-1', 'project-2', 'project-3', 'project-4', 'activity', 'toolbox'].flatMap(name => [`${name}.dark.svg`, `${name}.light.svg`]);
+assert.deepEqual(files.sort(), expectedAssets.sort());
+assert.equal(refs.length, 14);
+console.log(`Validated ${files.length} compact SVGs, ${refs.length} image references and all project links.`);
