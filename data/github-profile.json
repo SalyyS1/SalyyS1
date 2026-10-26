@@ -9,6 +9,12 @@
       "stars": 0
     },
     {
+      "name": "cadence-ghost-blog-mockup",
+      "url": "https://github.com/SalyyS1/cadence-ghost-blog-mockup",
+      "language": "CSS",
+      "stars": 0
+    },
+    {
       "name": "checkscammcvn.github.io",
       "url": "https://github.com/SalyyS1/checkscammcvn.github.io",
       "language": "JavaScript",
@@ -18,6 +24,12 @@
       "name": "content-pilot",
       "url": "https://github.com/SalyyS1/content-pilot",
       "language": "JavaScript",
+      "stars": 0
+    },
+    {
+      "name": "CustomMoreLore",
+      "url": "https://github.com/SalyyS1/CustomMoreLore",
+      "language": "Java",
       "stars": 0
     },
     {
@@ -33,9 +45,21 @@
       "stars": 2
     },
     {
+      "name": "discord-growth-toolkit",
+      "url": "https://github.com/SalyyS1/discord-growth-toolkit",
+      "language": "TypeScript",
+      "stars": 0
+    },
+    {
       "name": "DiscordsRPC",
       "url": "https://github.com/SalyyS1/DiscordsRPC",
       "language": "TypeScript",
+      "stars": 0
+    },
+    {
+      "name": "EnorialsHUD-refactor",
+      "url": "https://github.com/SalyyS1/EnorialsHUD-refactor",
+      "language": "Java",
       "stars": 0
     },
     {
@@ -93,50 +117,14 @@
       "stars": 1
     },
     {
-      "name": "OmniAffinity",
-      "url": "https://github.com/SalyyS1/OmniAffinity",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniBloodPact",
-      "url": "https://github.com/SalyyS1/OmniBloodPact",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniBossContribution",
-      "url": "https://github.com/SalyyS1/OmniBossContribution",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniBounties",
-      "url": "https://github.com/SalyyS1/OmniBounties",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniCombatPower",
-      "url": "https://github.com/SalyyS1/OmniCombatPower",
-      "language": "Kotlin",
+      "name": "nep-form",
+      "url": "https://github.com/SalyyS1/nep-form",
+      "language": "JavaScript",
       "stars": 0
     },
     {
       "name": "OmniCraft",
       "url": "https://github.com/SalyyS1/OmniCraft",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniEcho",
-      "url": "https://github.com/SalyyS1/OmniEcho",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniForge",
-      "url": "https://github.com/SalyyS1/OmniForge",
       "language": "Kotlin",
       "stars": 0
     },
@@ -147,87 +135,9 @@
       "stars": 0
     },
     {
-      "name": "OmniHex",
-      "url": "https://github.com/SalyyS1/OmniHex",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniInsignia",
-      "url": "https://github.com/SalyyS1/OmniInsignia",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniKillStreak",
-      "url": "https://github.com/SalyyS1/OmniKillStreak",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniLoadouts",
-      "url": "https://github.com/SalyyS1/OmniLoadouts",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniLootBeam",
-      "url": "https://github.com/SalyyS1/OmniLootBeam",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniLootPity",
-      "url": "https://github.com/SalyyS1/OmniLootPity",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniMomentum",
-      "url": "https://github.com/SalyyS1/OmniMomentum",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
       "name": "OmniPet",
       "url": "https://github.com/SalyyS1/OmniPet",
       "language": "Java",
-      "stars": 0
-    },
-    {
-      "name": "OmniRareAnnounce",
-      "url": "https://github.com/SalyyS1/OmniRareAnnounce",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniRelic",
-      "url": "https://github.com/SalyyS1/OmniRelic",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniSoulbind",
-      "url": "https://github.com/SalyyS1/OmniSoulbind",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniStance",
-      "url": "https://github.com/SalyyS1/OmniStance",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniStatTome",
-      "url": "https://github.com/SalyyS1/OmniStatTome",
-      "language": "Kotlin",
-      "stars": 0
-    },
-    {
-      "name": "OmniWard",
-      "url": "https://github.com/SalyyS1/OmniWard",
-      "language": "Kotlin",
       "stars": 0
     },
     {
@@ -331,16 +241,10 @@
       "url": "https://github.com/SalyyS1/wynncraft-vietnamese",
       "language": "Java",
       "stars": 1
-    },
-    {
-      "name": "Yxchi",
-      "url": "https://github.com/SalyyS1/Yxchi",
-      "language": "CSS",
-      "stars": 0
     }
   ],
   "calendar": {
-    "totalContributions": 1386,
+    "totalContributions": 1298,
     "weeks": [
       {
         "contributionDays": [
@@ -571,8 +475,8 @@
           },
           {
             "date": "2025-12-06",
-            "contributionCount": 0,
-            "contributionLevel": "NONE"
+            "contributionCount": 1,
+            "contributionLevel": "FIRST_QUARTILE"
           }
         ]
       },
@@ -668,7 +572,7 @@
           },
           {
             "date": "2025-12-23",
-            "contributionCount": 2,
+            "contributionCount": 3,
             "contributionLevel": "FIRST_QUARTILE"
           },
           {
@@ -683,7 +587,7 @@
           },
           {
             "date": "2025-12-26",
-            "contributionCount": 3,
+            "contributionCount": 4,
             "contributionLevel": "FIRST_QUARTILE"
           },
           {
@@ -819,8 +723,8 @@
           },
           {
             "date": "2026-01-19",
-            "contributionCount": 0,
-            "contributionLevel": "NONE"
+            "contributionCount": 1,
+            "contributionLevel": "FIRST_QUARTILE"
           },
           {
             "date": "2026-01-20",
@@ -892,8 +796,8 @@
         "contributionDays": [
           {
             "date": "2026-02-01",
-            "contributionCount": 0,
-            "contributionLevel": "NONE"
+            "contributionCount": 1,
+            "contributionLevel": "FIRST_QUARTILE"
           },
           {
             "date": "2026-02-02",
@@ -951,7 +855,7 @@
           },
           {
             "date": "2026-02-12",
-            "contributionCount": 6,
+            "contributionCount": 8,
             "contributionLevel": "FIRST_QUARTILE"
           },
           {
@@ -970,7 +874,7 @@
         "contributionDays": [
           {
             "date": "2026-02-15",
-            "contributionCount": 2,
+            "contributionCount": 4,
             "contributionLevel": "FIRST_QUARTILE"
           },
           {
@@ -1000,7 +904,7 @@
           },
           {
             "date": "2026-02-21",
-            "contributionCount": 2,
+            "contributionCount": 3,
             "contributionLevel": "FIRST_QUARTILE"
           }
         ]
@@ -1019,7 +923,7 @@
           },
           {
             "date": "2026-02-24",
-            "contributionCount": 8,
+            "contributionCount": 10,
             "contributionLevel": "FIRST_QUARTILE"
           },
           {
@@ -1097,7 +1001,7 @@
           },
           {
             "date": "2026-03-10",
-            "contributionCount": 1,
+            "contributionCount": 2,
             "contributionLevel": "FIRST_QUARTILE"
           },
           {
@@ -1195,7 +1099,7 @@
           },
           {
             "date": "2026-03-28",
-            "contributionCount": 4,
+            "contributionCount": 5,
             "contributionLevel": "FIRST_QUARTILE"
           }
         ]
@@ -1214,8 +1118,8 @@
           },
           {
             "date": "2026-03-31",
-            "contributionCount": 0,
-            "contributionLevel": "NONE"
+            "contributionCount": 1,
+            "contributionLevel": "FIRST_QUARTILE"
           },
           {
             "date": "2026-04-01",
@@ -1750,13 +1654,13 @@
         "contributionDays": [
           {
             "date": "2026-07-05",
-            "contributionCount": 11,
+            "contributionCount": 7,
             "contributionLevel": "FIRST_QUARTILE"
           },
           {
             "date": "2026-07-06",
-            "contributionCount": 15,
-            "contributionLevel": "FIRST_QUARTILE"
+            "contributionCount": 0,
+            "contributionLevel": "NONE"
           },
           {
             "date": "2026-07-07",
@@ -1843,7 +1747,7 @@
           },
           {
             "date": "2026-07-22",
-            "contributionCount": 91,
+            "contributionCount": 67,
             "contributionLevel": "FOURTH_QUARTILE"
           },
           {
@@ -1858,8 +1762,8 @@
           },
           {
             "date": "2026-07-25",
-            "contributionCount": 55,
-            "contributionLevel": "THIRD_QUARTILE"
+            "contributionCount": 14,
+            "contributionLevel": "FIRST_QUARTILE"
           }
         ]
       },
@@ -1867,8 +1771,8 @@
         "contributionDays": [
           {
             "date": "2026-07-26",
-            "contributionCount": 41,
-            "contributionLevel": "THIRD_QUARTILE"
+            "contributionCount": 21,
+            "contributionLevel": "SECOND_QUARTILE"
           },
           {
             "date": "2026-07-27",
@@ -1882,7 +1786,7 @@
           },
           {
             "date": "2026-07-29",
-            "contributionCount": 15,
+            "contributionCount": 13,
             "contributionLevel": "FIRST_QUARTILE"
           },
           {
@@ -2384,7 +2288,7 @@
           },
           {
             "date": "2026-10-27",
-            "contributionCount": 6,
+            "contributionCount": 9,
             "contributionLevel": "FIRST_QUARTILE"
           }
         ]
