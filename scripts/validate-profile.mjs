@@ -8,14 +8,15 @@ const readme = await readFile(new URL('README.md', root), 'utf8');
 assert.equal(data.login, config.login);
 const files = (await readdir(new URL('assets/', root))).filter(f => f.endsWith('.svg'));
 const refs = [...readme.matchAll(/(?:src|srcset)="(assets\/[^" ]+)"/g)].map(m => m[1]);
-assert.equal(files.length, 8, 'Profile should ship four small light/dark project marks');
-assert.equal(refs.length, 8, 'README should reference four light/dark project marks');
+const expectedMarks = config.projects.length * 2;
+assert.equal(files.length, expectedMarks, `Profile should ship ${expectedMarks} small light/dark project marks`);
+assert.equal(refs.length, expectedMarks, `README should reference ${expectedMarks} light/dark project marks`);
 for (const ref of refs) assert.ok(files.includes(ref.slice(7)), `Missing README image ${ref}`);
 for (const p of config.projects) {
   assert.ok(data.repositories.some(r => r.name === p.repo), `Missing public repository ${p.repo}`);
   assert.ok(readme.includes(`href="https://github.com/${config.login}/${p.repo}"`));
 }
 assert.ok(!readme.includes('moonlit-midautumn'));
-assert.match(readme, /<table>[\s\S]*SLClean[\s\S]*SLTerm[\s\S]*Stella Bot[\s\S]*Foliora[\s\S]*<\/table>/);
+assert.match(readme, /<table>[\s\S]*SLClean[\s\S]*SLTerm[\s\S]*Stella Bot[\s\S]*Foliora[\s\S]*MCP Slim[\s\S]*What Changed[\s\S]*<\/table>/);
 assert.doesNotMatch(readme, /DiscordsRPC/);
 console.log(`Validated text-first README, ${files.length} SVG assets and all project links.`);

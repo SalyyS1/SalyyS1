@@ -99,6 +99,12 @@
       "stars": 0
     },
     {
+      "name": "mcp-slim",
+      "url": "https://github.com/SalyyS1/mcp-slim",
+      "language": "Python",
+      "stars": 2
+    },
+    {
       "name": "mcstage",
       "url": "https://github.com/SalyyS1/mcstage",
       "language": "Kotlin",

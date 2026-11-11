@@ -5,7 +5,9 @@
     { "repo": "SLClean", "category": "DESKTOP UTILITY", "title": "SLClean", "lines": ["A clearer view of your machine.", "Review disk usage before you clean."], "stack": "Rust · Tauri · Windows", "motif": "clean", "status": "RELEASED" },
     { "repo": "SLTerm", "category": "DEVELOPER WORKSPACE", "title": "SLTerm", "lines": ["A terminal made into a workspace.", "Customized from Wave Terminal."], "stack": "Go · TypeScript · React", "motif": "terminal", "status": "RELEASED" },
     { "repo": "discord-bot", "category": "WORKFLOW AUTOMATION", "title": "Stella Bot", "lines": ["Community workflows in one dashboard.", "Moderation, tickets and bot management."], "stack": "TypeScript · Next.js · Prisma", "motif": "nodes", "status": "PERSONAL PROJECT" },
-    { "repo": "foliora", "category": "LOCAL-FIRST + AI", "title": "Foliora", "lines": ["Documents into source-backed context.", "Reviewed exports. Optional AI assistance."], "stack": "Rust · Tauri · React", "motif": "kit", "status": "EXPERIMENTAL / v0.1" }
+    { "repo": "foliora", "category": "LOCAL-FIRST + AI", "title": "Foliora", "lines": ["Documents into source-backed context.", "Reviewed exports. Optional AI assistance."], "stack": "Rust · Tauri · React", "motif": "kit", "status": "EXPERIMENTAL / v0.1" },
+    { "repo": "mcp-slim", "category": "AI / MCP INFRASTRUCTURE", "title": "MCP Slim", "lines": ["Zero-dependency MCP stdio proxy.", "Cuts schema tokens by 48.8% in <1 ms."], "stack": "Python · MCP · JSON-RPC", "motif": "proxy", "status": "RELEASED" },
+    { "repo": "what-changed", "category": "SYSTEM DIAGNOSTICS", "title": "What Changed", "lines": ["Local Windows change recorder.", "Inspect system state and troubleshoot."], "stack": "Rust · Windows", "motif": "diff", "status": "EXPERIMENTAL" }
   ],
   "links": {
     "website": "https://salyyy.site/",
