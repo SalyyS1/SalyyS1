@@ -99,6 +99,12 @@
       "stars": 0
     },
     {
+      "name": "loraspectra",
+      "url": "https://github.com/SalyyS1/loraspectra",
+      "language": "Rust",
+      "stars": 1
+    },
+    {
       "name": "mcp-slim",
       "url": "https://github.com/SalyyS1/mcp-slim",
       "language": "Python",

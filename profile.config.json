@@ -7,7 +7,7 @@
     { "repo": "discord-bot", "category": "WORKFLOW AUTOMATION", "title": "Stella Bot", "lines": ["Community workflows in one dashboard.", "Moderation, tickets and bot management."], "stack": "TypeScript · Next.js · Prisma", "motif": "nodes", "status": "PERSONAL PROJECT" },
     { "repo": "foliora", "category": "LOCAL-FIRST + AI", "title": "Foliora", "lines": ["Documents into source-backed context.", "Reviewed exports. Optional AI assistance."], "stack": "Rust · Tauri · React", "motif": "kit", "status": "EXPERIMENTAL / v0.1" },
     { "repo": "mcp-slim", "category": "AI / MCP INFRASTRUCTURE", "title": "MCP Slim", "lines": ["Zero-dependency MCP stdio proxy.", "Cuts schema tokens by 48.8% in <1 ms."], "stack": "Python · MCP · JSON-RPC", "motif": "proxy", "status": "RELEASED" },
-    { "repo": "what-changed", "category": "SYSTEM DIAGNOSTICS", "title": "What Changed", "lines": ["Local Windows change recorder.", "Inspect system state and troubleshoot."], "stack": "Rust · Windows", "motif": "diff", "status": "EXPERIMENTAL" }
+    { "repo": "loraspectra", "category": "AI / MODEL MERGING", "title": "LoRASpectra", "lines": ["QR-Core SVD auditor & rank compressor.", "Orthogonal subspace merge for .safetensors."], "stack": "Rust · Safetensors · SVD", "motif": "spectra", "status": "RELEASED" }
   ],
   "links": {
     "website": "https://salyyy.site/",

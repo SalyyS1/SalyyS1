@@ -6,7 +6,7 @@
 
 **Software Engineer · Applications · Developer Tools · AI Automation**
 
-<a href="https://github.com/SalyyS1/SLClean/releases">Applications</a> · <a href="https://github.com/SalyyS1/SLTerm">Developer tools</a> · <a href="https://github.com/SalyyS1/mcp-slim">MCP tools</a> · <a href="https://discord.gg/WMFcNr23kJ">Contact</a>
+<a href="https://github.com/SalyyS1/SLClean/releases">Applications</a> · <a href="https://github.com/SalyyS1/SLTerm">Developer tools</a> · <a href="https://github.com/SalyyS1/loraspectra">AI &amp; MCP</a> · <a href="https://discord.gg/WMFcNr23kJ">Contact</a>
 
 </div>
 
@@ -38,9 +38,9 @@ I build small, useful software for real workflows: desktop apps, developer tools
 <p>A zero-dependency MCP stdio proxy that trims tool schema tokens by 48.8% and redacts secrets in under 1 ms.</p>
 <sub>Python · MCP · JSON-RPC · Released</sub>
 </td><td width="50%" valign="top">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-what-changed.dark.svg"><img src="assets/mark-what-changed.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/what-changed">What Changed</a></h3>
-<p>A local Windows change recorder and troubleshooting workspace.</p>
-<sub>Rust · Windows · Experimental</sub>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-loraspectra.dark.svg"><img src="assets/mark-loraspectra.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/loraspectra">LoRASpectra</a></h3>
+<p>Spectral QR-Core SVD auditor, Eckart-Young dynamic rank compressor and orthogonal subspace merger for .safetensors LoRA adapters.</p>
+<sub>Rust · Safetensors · SVD · Released</sub>
 </td></tr>
 </table>
 
