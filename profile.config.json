@@ -2,12 +2,72 @@
   "login": "SalyyS1",
   "name": "Salyyy",
   "projects": [
-    { "repo": "SLClean", "category": "DESKTOP UTILITY", "title": "SLClean", "lines": ["A clearer view of your machine.", "Review disk usage before you clean."], "stack": "Rust · Tauri · Windows", "motif": "clean", "status": "RELEASED" },
-    { "repo": "SLTerm", "category": "DEVELOPER WORKSPACE", "title": "SLTerm", "lines": ["A terminal made into a workspace.", "Customized from Wave Terminal."], "stack": "Go · TypeScript · React", "motif": "terminal", "status": "RELEASED" },
-    { "repo": "discord-bot", "category": "WORKFLOW AUTOMATION", "title": "Stella Bot", "lines": ["Community workflows in one dashboard.", "Moderation, tickets and bot management."], "stack": "TypeScript · Next.js · Prisma", "motif": "nodes", "status": "PERSONAL PROJECT" },
-    { "repo": "foliora", "category": "LOCAL-FIRST + AI", "title": "Foliora", "lines": ["Documents into source-backed context.", "Reviewed exports. Optional AI assistance."], "stack": "Rust · Tauri · React", "motif": "kit", "status": "EXPERIMENTAL / v0.1" },
-    { "repo": "mcp-slim", "category": "AI / MCP INFRASTRUCTURE", "title": "MCP Slim", "lines": ["Zero-dependency MCP stdio proxy.", "Cuts schema tokens by 48.8% in <1 ms."], "stack": "Python · MCP · JSON-RPC", "motif": "proxy", "status": "RELEASED" },
-    { "repo": "loraspectra", "category": "AI / MODEL MERGING", "title": "LoRASpectra", "lines": ["QR-Core SVD auditor & rank compressor.", "Orthogonal subspace merge for .safetensors."], "stack": "Rust · Safetensors · SVD", "motif": "spectra", "status": "RELEASED" }
+    {
+      "repo": "mcp-slim",
+      "category": "AI / MCP INFRASTRUCTURE",
+      "title": "MCP Slim",
+      "description": "A zero-dependency MCP stdio proxy that trims tool schema tokens by 48.8% and redacts secrets in under 1 ms.",
+      "lines": ["Zero-dependency MCP stdio proxy.", "Cuts schema tokens by 48.8% in <1 ms."],
+      "stack": "Python · MCP · JSON-RPC",
+      "motif": "proxy",
+      "status": "RELEASED",
+      "statusLabel": "Released"
+    },
+    {
+      "repo": "loraspectra",
+      "category": "AI / MODEL MERGING",
+      "title": "LoRASpectra",
+      "description": "Spectral QR-Core SVD auditor, Eckart-Young dynamic rank compressor and orthogonal subspace merger for .safetensors LoRA adapters.",
+      "lines": ["QR-Core SVD auditor & rank compressor.", "Orthogonal subspace merge for .safetensors."],
+      "stack": "Rust · Safetensors · SVD",
+      "motif": "spectra",
+      "status": "RELEASED",
+      "statusLabel": "Released"
+    },
+    {
+      "repo": "what-changed",
+      "category": "SYSTEM DIAGNOSTICS",
+      "title": "What Changed",
+      "description": "A local-first Windows change recorder, causal timeline and troubleshooting workspace for investigating what changed.",
+      "lines": ["Local-first Windows change recorder.", "Causal timeline for system regressions."],
+      "stack": "Rust · Tauri · Svelte · SQLite",
+      "motif": "delta",
+      "status": "SOURCE PREVIEW",
+      "statusLabel": "Source preview"
+    },
+    {
+      "repo": "SLClean",
+      "category": "DESKTOP UTILITY",
+      "title": "SLClean",
+      "description": "A Windows disk utility for inspecting AI and developer caches, build artifacts, leftovers and duplicates before you clean.",
+      "lines": ["A clearer view of your machine.", "Review disk usage before you clean."],
+      "stack": "Rust · Tauri · Windows",
+      "motif": "clean",
+      "status": "RELEASED",
+      "statusLabel": "Released"
+    },
+    {
+      "repo": "SLTerm",
+      "category": "DEVELOPER WORKSPACE",
+      "title": "SLTerm",
+      "description": "A terminal turned into a flexible workspace, customized from Wave Terminal.",
+      "lines": ["A terminal made into a workspace.", "Customized from Wave Terminal."],
+      "stack": "Go · TypeScript · React",
+      "motif": "terminal",
+      "status": "RELEASED",
+      "statusLabel": "Released"
+    },
+    {
+      "repo": "foliora",
+      "category": "LOCAL-FIRST + AI",
+      "title": "Foliora",
+      "description": "Source-backed context packs with reviewed exports and optional AI assistance.",
+      "lines": ["Documents into source-backed context.", "Reviewed exports. Optional AI assistance."],
+      "stack": "Rust · Tauri · React",
+      "motif": "kit",
+      "status": "EXPERIMENTAL / v0.1",
+      "statusLabel": "Experimental · v0.1"
+    }
   ],
   "links": {
     "website": "https://salyyy.site/",
