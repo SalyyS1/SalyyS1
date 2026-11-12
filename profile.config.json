@@ -25,17 +25,6 @@
       "statusLabel": "Released"
     },
     {
-      "repo": "what-changed",
-      "category": "SYSTEM DIAGNOSTICS",
-      "title": "What Changed",
-      "description": "A local-first Windows change recorder, causal timeline and troubleshooting workspace for investigating what changed.",
-      "lines": ["Local-first Windows change recorder.", "Causal timeline for system regressions."],
-      "stack": "Rust · Tauri · Svelte · SQLite",
-      "motif": "delta",
-      "status": "SOURCE PREVIEW",
-      "statusLabel": "Source preview"
-    },
-    {
       "repo": "SLClean",
       "category": "DESKTOP UTILITY",
       "title": "SLClean",
@@ -67,6 +56,17 @@
       "motif": "kit",
       "status": "EXPERIMENTAL / v0.1",
       "statusLabel": "Experimental · v0.1"
+    },
+    {
+      "repo": "discord-bot",
+      "category": "WORKFLOW AUTOMATION",
+      "title": "Stella Bot",
+      "description": "A Discord dashboard for moderation, tickets, leveling and community workflows.",
+      "lines": ["Community workflows in one dashboard.", "Moderation, tickets and bot management."],
+      "stack": "TypeScript · Next.js · Prisma",
+      "motif": "nodes",
+      "status": "PERSONAL PROJECT",
+      "statusLabel": "Personal project"
     }
   ],
   "links": {

@@ -6,7 +6,7 @@
 
 **Software Engineer · AI &amp; MCP · Local-First Applications · Developer Tools**
 
-<a href="https://github.com/SalyyS1/mcp-slim">AI &amp; MCP</a> · <a href="https://github.com/SalyyS1/what-changed">Applications</a> · <a href="https://github.com/SalyyS1/SLClean/releases">Releases</a> · <a href="https://github.com/SalyyS1/SLTerm">Developer tools</a> · <a href="https://discord.gg/WMFcNr23kJ">Contact</a>
+<a href="https://github.com/SalyyS1/mcp-slim">AI &amp; MCP</a> · <a href="https://github.com/SalyyS1/SLClean/releases">Applications</a> · <a href="https://github.com/SalyyS1/SLTerm">Developer tools</a> · <a href="https://discord.gg/WMFcNr23kJ">Contact</a>
 
 </div>
 
@@ -25,22 +25,22 @@ I build small, useful software for real workflows: desktop apps, developer tools
 <sub>Rust · Safetensors · SVD · Released</sub>
 </td></tr>
 <tr><td width="50%" valign="top">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-what-changed.dark.svg"><img src="assets/mark-what-changed.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/what-changed">What Changed</a></h3>
-<p>A local-first Windows change recorder, causal timeline and troubleshooting workspace for investigating what changed.</p>
-<sub>Rust · Tauri · Svelte · SQLite · Source preview</sub>
-</td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slclean.dark.svg"><img src="assets/mark-slclean.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLClean">SLClean</a></h3>
 <p>A Windows disk utility for inspecting AI and developer caches, build artifacts, leftovers and duplicates before you clean.</p>
 <sub>Rust · Tauri · Windows · Released</sub>
-</td></tr>
-<tr><td width="50%" valign="top">
+</td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slterm.dark.svg"><img src="assets/mark-slterm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLTerm">SLTerm</a></h3>
 <p>A terminal turned into a flexible workspace, customized from Wave Terminal.</p>
 <sub>Go · TypeScript · React · Released</sub>
-</td><td width="50%" valign="top">
+</td></tr>
+<tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-foliora.dark.svg"><img src="assets/mark-foliora.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/foliora">Foliora</a></h3>
 <p>Source-backed context packs with reviewed exports and optional AI assistance.</p>
 <sub>Rust · Tauri · React · Experimental · v0.1</sub>
+</td><td width="50%" valign="top">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-stella-bot.dark.svg"><img src="assets/mark-stella-bot.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/discord-bot">Stella Bot</a></h3>
+<p>A Discord dashboard for moderation, tickets, leveling and community workflows.</p>
+<sub>TypeScript · Next.js · Prisma · Personal project</sub>
 </td></tr>
 </table>
 
