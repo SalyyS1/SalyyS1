@@ -51,8 +51,9 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 - **[foliascan](https://github.com/SalyyS1/foliascan)** (v0.5.0 · [Browser auditor](https://salyys1.github.io/foliascan/)): JVM bytecode static analyzer for Folia regionized multithreading with cross-region lifecycle race detection and SARIF v2.1.0 call flows.
 - **[serverdoctor](https://github.com/SalyyS1/serverdoctor)** (v0.3.0 · [Web analyzer](https://salyys1.github.io/serverdoctor/)): 100-rule offline diagnostic auditor for server configs, GC pauses, and timings.
 - **[pluginscope](https://github.com/SalyyS1/pluginscope)** (v0.2.0 · [JAR inspector](https://salyys1.github.io/pluginscope/)): 70-rule static bytecode &amp; shading collision auditor for JVM plugin archives.
+- **[glyphsmith](https://github.com/SalyyS1/glyphsmith)** (v0.3.0 · [Font auditor &amp; solver](https://salyys1.github.io/glyphsmith/)): Deterministic Minecraft bitmap font solver, multi-pack codepoint collision analyzer, and SARIF v2.1.0 pack auditor.
 - **[mcstage](https://github.com/SalyyS1/mcstage)** (v0.2.0): Standalone real-server integration test runner with console driving, file assertions, and JUnit XML output.
-- **Resource-pack compilers:** [shadersmith](https://github.com/SalyyS1/shadersmith) (GLSL shader contract validator) · [packmigrate](https://github.com/SalyyS1/packmigrate) · [packmerge](https://github.com/SalyyS1/packmerge) · [glyphsmith](https://github.com/SalyyS1/glyphsmith).
+- **Resource-pack compilers:** [shadersmith](https://github.com/SalyyS1/shadersmith) (GLSL shader contract validator) · [packmigrate](https://github.com/SalyyS1/packmigrate) · [packmerge](https://github.com/SalyyS1/packmerge).
 
 **Languages:** Rust, Go, Kotlin, Python, TypeScript, Java<br>
 **Runtime &amp; UI:** Tauri 2, KVM / Cloud Hypervisor, React, Svelte, GitHub Actions, MCP
