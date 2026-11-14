@@ -6,26 +6,26 @@
       "repo": "mcp-slim",
       "category": "AI / MCP INFRASTRUCTURE",
       "title": "MCP Slim",
-      "description": "Zero-dependency MCP stdio proxy and server that trims tool schema tokens by 48.8%, validates root unions, and vaults secrets in under 1 ms.",
+      "description": "Zero-dependency MCP stdio proxy and server that trims schema tokens by 48.8%, pins SHA-256 tool schemas against rug-pulls, and vaults secrets in under 1 ms.",
       "lines": ["Zero-dependency MCP stdio proxy.", "Cuts schema tokens by 48.8% in <1 ms."],
       "stack": "Python · MCP · JSON-RPC",
       "motif": "proxy",
       "status": "RELEASED",
-      "statusLabel": "Released · v0.7.0",
-      "extraLinkLabel": "Releases",
-      "extraLinkUrl": "https://github.com/SalyyS1/mcp-slim/releases"
+      "statusLabel": "Released · v1.0.0",
+      "extraLinkLabel": "Playground",
+      "extraLinkUrl": "https://salyys1.github.io/mcp-slim/"
     },
     {
       "repo": "loraspectra",
       "category": "AI / MODEL MERGING",
       "title": "LoRASpectra",
-      "description": "Spectral QR-Core SVD auditor, Eckart-Young dynamic rank compressor, SFT dead-row detector, and orthogonal subspace merger for .safetensors LoRAs.",
+      "description": "Spectral QR-Core SVD auditor, multi-adapter merge conflict analyzer, dynamic rank compressor, and orthogonal subspace merger for .safetensors LoRAs.",
       "lines": ["QR-Core SVD auditor & rank compressor.", "Orthogonal subspace merge for .safetensors."],
       "stack": "Rust · Safetensors · SVD",
       "motif": "spectra",
       "status": "RELEASED",
-      "statusLabel": "Released · v0.7.0",
-      "extraLinkLabel": "Web playground",
+      "statusLabel": "Released · v0.9.0",
+      "extraLinkLabel": "Web inspector",
       "extraLinkUrl": "https://salyys1.github.io/loraspectra/"
     },
     {
@@ -37,7 +37,7 @@
       "stack": "Go · KVM · Cloud Hypervisor",
       "motif": "vm",
       "status": "RELEASED",
-      "statusLabel": "Released · v0.2.0",
+      "statusLabel": "Released · v0.2.1",
       "extraLinkLabel": "Releases",
       "extraLinkUrl": "https://github.com/SalyyS1/omnivm/releases"
     },
@@ -69,12 +69,14 @@
       "repo": "foliora",
       "category": "LOCAL-FIRST + AI",
       "title": "Foliora",
-      "description": "Source-backed context packs with citation-grounded Markdown exports, SHA-256 audit digests, and optional AI assistance.",
-      "lines": ["Documents into source-backed context.", "Reviewed exports with SHA-256 digests."],
+      "description": "Source-backed context packs with fail-closed bundle verification, indirect prompt-injection scanning, and SHA-256 audit digests.",
+      "lines": ["Documents into source-backed context.", "Fail-closed bundle & archive verifier."],
       "stack": "Rust · Tauri · React",
       "motif": "kit",
-      "status": "EXPERIMENTAL / v0.1",
-      "statusLabel": "Experimental · v0.1"
+      "status": "RELEASED",
+      "statusLabel": "Released · v0.2.0",
+      "extraLinkLabel": "Docs",
+      "extraLinkUrl": "https://salyys1.github.io/foliora/"
     }
   ],
   "links": {
