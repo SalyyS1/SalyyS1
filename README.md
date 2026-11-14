@@ -21,13 +21,13 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <sub>Python · MCP · JSON-RPC · Released · v1.1.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-loraspectra.dark.svg"><img src="assets/mark-loraspectra.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/loraspectra">LoRASpectra</a></h3>
-<p>Spectral QR-Core SVD auditor, budget-optimal heterogeneous rank allocator, PEFT rank_pattern exporter, and orthogonal subspace merger for .safetensors LoRAs.</p>
-<sub>Rust · Safetensors · SVD · Released · v1.0.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
+<p>Spectral QR-Core SVD & DoRA directional/magnitude auditor, budget-optimal heterogeneous rank allocator, and orthogonal subspace merger for .safetensors LoRAs.</p>
+<sub>Rust · Safetensors · SVD · Released · v1.1.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-omnivm.dark.svg"><img src="assets/mark-omnivm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/omnivm">OmniVM</a></h3>
-<p>Scale-to-zero Linux microVM orchestrator on Cloud Hypervisor and KVM with single-flight wake coalescing and virtio-vsock readiness probes.</p>
-<sub>Go · KVM · Cloud Hypervisor · Released · v0.2.1 · <a href="https://github.com/SalyyS1/omnivm/releases">Releases</a></sub>
+<p>Scale-to-zero Linux microVM orchestrator on Cloud Hypervisor and KVM with single-flight wake coalescing, LRU paused eviction quotas, and Prometheus/OpenMetrics telemetry.</p>
+<sub>Go · KVM · Cloud Hypervisor · Released · v0.3.0 · <a href="https://salyys1.github.io/omnivm/">Simulator</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slclean.dark.svg"><img src="assets/mark-slclean.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLClean">SLClean</a></h3>
 <p>Windows disk and AI/developer cache utility with headless JSON CLI, WSL2/Docker .vhdx lock protection, and 105 static rules.</p>
@@ -52,8 +52,9 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 - **[serverdoctor](https://github.com/SalyyS1/serverdoctor)** (v0.3.0 · [Web analyzer](https://salyys1.github.io/serverdoctor/)): 100-rule offline diagnostic auditor for server configs, GC pauses, and timings.
 - **[pluginscope](https://github.com/SalyyS1/pluginscope)** (v0.2.0 · [JAR inspector](https://salyys1.github.io/pluginscope/)): 70-rule static bytecode &amp; shading collision auditor for JVM plugin archives.
 - **[glyphsmith](https://github.com/SalyyS1/glyphsmith)** (v0.3.0 · [Font auditor &amp; solver](https://salyys1.github.io/glyphsmith/)): Deterministic Minecraft bitmap font solver, multi-pack codepoint collision analyzer, and SARIF v2.1.0 pack auditor.
+- **[shadersmith](https://github.com/SalyyS1/shadersmith)** (v0.3.0 · [GLSL &amp; overlay auditor](https://salyys1.github.io/shadersmith/)): Minecraft 1.21.4..26.3 GLSL shader, post-effect graph, and std140 uniform block contract validator and migrator with SARIF v2.1.0 output.
 - **[mcstage](https://github.com/SalyyS1/mcstage)** (v0.2.0): Standalone real-server integration test runner with console driving, file assertions, and JUnit XML output.
-- **Resource-pack compilers:** [shadersmith](https://github.com/SalyyS1/shadersmith) (GLSL shader contract validator) · [packmigrate](https://github.com/SalyyS1/packmigrate) · [packmerge](https://github.com/SalyyS1/packmerge).
+- **Resource-pack compilers:** [packmigrate](https://github.com/SalyyS1/packmigrate) (1.14..26.3 item definition migrator) · [packmerge](https://github.com/SalyyS1/packmerge) (deterministic multi-plugin pack compiler).
 
 **Languages:** Rust, Go, Kotlin, Python, TypeScript, Java<br>
 **Runtime &amp; UI:** Tauri 2, KVM / Cloud Hypervisor, React, Svelte, GitHub Actions, MCP
