@@ -4,55 +4,59 @@
 
 # Salyyy
 
-**Software Engineer · AI &amp; MCP · Local-First Applications · Developer Tools**
+**Software Engineer · AI &amp; MCP · Systems &amp; MicroVMs · Local-First Developer Tools**
 
-<a href="https://github.com/SalyyS1/mcp-slim">AI &amp; MCP</a> · <a href="https://github.com/SalyyS1/SLClean/releases">Applications</a> · <a href="https://github.com/SalyyS1/SLTerm">Developer tools</a> · <a href="https://discord.gg/WMFcNr23kJ">Contact</a>
+<a href="https://github.com/SalyyS1/mcp-slim">AI &amp; MCP</a> · <a href="https://github.com/SalyyS1/omnivm">Systems</a> · <a href="https://github.com/SalyyS1/SLClean/releases">Applications</a> · <a href="https://github.com/SalyyS1/SLTerm">Developer tools</a> · <a href="https://discord.gg/WMFcNr23kJ">Contact</a>
 
 </div>
 
-I build small, useful software for real workflows: desktop apps, developer tools and local-first automation. I care about clear boundaries, reviewable behavior and shipping something people can actually use.
+I build focused, verifiable software for real engineering workflows: MCP infrastructure, spectral model tooling, scale-to-zero Linux sandboxes, and local-first desktop utilities.
 
 ## Selected work
 
 <table>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-mcp-slim.dark.svg"><img src="assets/mark-mcp-slim.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/mcp-slim">MCP Slim</a></h3>
-<p>A zero-dependency MCP stdio proxy that trims tool schema tokens by 48.8% and redacts secrets in under 1 ms.</p>
-<sub>Python · MCP · JSON-RPC · Released</sub>
+<p>Zero-dependency MCP stdio proxy and server that trims tool schema tokens by 48.8%, validates root unions, and vaults secrets in under 1 ms.</p>
+<sub>Python · MCP · JSON-RPC · Released · v0.7.0 · <a href="https://github.com/SalyyS1/mcp-slim/releases">Releases</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-loraspectra.dark.svg"><img src="assets/mark-loraspectra.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/loraspectra">LoRASpectra</a></h3>
-<p>Spectral QR-Core SVD auditor, Eckart-Young dynamic rank compressor and orthogonal subspace merger for .safetensors LoRA adapters.</p>
-<sub>Rust · Safetensors · SVD · Released</sub>
+<p>Spectral QR-Core SVD auditor, Eckart-Young dynamic rank compressor, SFT dead-row detector, and orthogonal subspace merger for .safetensors LoRAs.</p>
+<sub>Rust · Safetensors · SVD · Released · v0.7.0 · <a href="https://salyys1.github.io/loraspectra/">Web playground</a></sub>
 </td></tr>
 <tr><td width="50%" valign="top">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-omnivm.dark.svg"><img src="assets/mark-omnivm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/omnivm">OmniVM</a></h3>
+<p>Scale-to-zero Linux microVM orchestrator on Cloud Hypervisor and KVM with single-flight wake coalescing and virtio-vsock readiness probes.</p>
+<sub>Go · KVM · Cloud Hypervisor · Released · v0.2.0 · <a href="https://github.com/SalyyS1/omnivm/releases">Releases</a></sub>
+</td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slclean.dark.svg"><img src="assets/mark-slclean.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLClean">SLClean</a></h3>
-<p>A Windows disk utility for inspecting AI and developer caches, build artifacts, leftovers and duplicates before you clean.</p>
-<sub>Rust · Tauri · Windows · Released</sub>
-</td><td width="50%" valign="top">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slterm.dark.svg"><img src="assets/mark-slterm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLTerm">SLTerm</a></h3>
-<p>A terminal turned into a flexible workspace, customized from Wave Terminal.</p>
-<sub>Go · TypeScript · React · Released</sub>
+<p>Windows disk and AI/developer cache utility with headless JSON CLI, WSL2/Docker .vhdx lock protection, and 105 static rules.</p>
+<sub>Rust · Tauri · Windows · Released · v0.4.0 · <a href="https://salyys1.github.io/SLClean/">Footprint explorer</a></sub>
 </td></tr>
 <tr><td width="50%" valign="top">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-foliora.dark.svg"><img src="assets/mark-foliora.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/foliora">Foliora</a></h3>
-<p>Source-backed context packs with reviewed exports and optional AI assistance.</p>
-<sub>Rust · Tauri · React · Experimental · v0.1</sub>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slterm.dark.svg"><img src="assets/mark-slterm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLTerm">SLTerm</a></h3>
+<p>Workspace-oriented terminal with Tauri 2, multi-agent team orchestration, encrypted secret store, and pastejacking security guards.</p>
+<sub>Go · TypeScript · Tauri 2 · Released</sub>
 </td><td width="50%" valign="top">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-stella-bot.dark.svg"><img src="assets/mark-stella-bot.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/discord-bot">Stella Bot</a></h3>
-<p>A Discord dashboard for moderation, tickets, leveling and community workflows.</p>
-<sub>TypeScript · Next.js · Prisma · Personal project</sub>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-foliora.dark.svg"><img src="assets/mark-foliora.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/foliora">Foliora</a></h3>
+<p>Source-backed context packs with citation-grounded Markdown exports, SHA-256 audit digests, and optional AI assistance.</p>
+<sub>Rust · Tauri · React · Experimental · v0.1</sub>
 </td></tr>
 </table>
 
 <details>
-<summary>What I work with</summary>
+<summary>CLI, static analysis &amp; verification suite</summary>
 
-**Languages:** Rust, TypeScript, Go, Kotlin, Java, Python<br>
-**Applications:** React, Tauri, Svelte, Electron, Next.js<br>
-**Workflows:** GitHub Actions, agent skills, MCP
+- **[minecraftkit](https://github.com/SalyyS1/minecraftkit)** (v2.3.0): MCP server and multi-agent skill toolkit for Paper/Folia migration auditing and crash-log diagnostics.
+- **[foliascan](https://github.com/SalyyS1/foliascan)** (v0.3.0): JVM bytecode static analyzer for Folia regionized multithreading with inter-procedural SARIF v2.1.0 call flows.
+- **[serverdoctor](https://github.com/SalyyS1/serverdoctor)** (v0.3.0 · [Web analyzer](https://salyys1.github.io/serverdoctor/)): 100-rule offline diagnostic auditor for server configs, GC pauses, and timings.
+- **[pluginscope](https://github.com/SalyyS1/pluginscope)** (v0.2.0 · [JAR inspector](https://salyys1.github.io/pluginscope/)): 70-rule static bytecode &amp; shading collision auditor for JVM plugin archives.
+- **[mcstage](https://github.com/SalyyS1/mcstage)** (v0.2.0): Standalone real-server integration test runner with console driving, file assertions, and JUnit XML output.
+- **Resource-pack compilers:** [shadersmith](https://github.com/SalyyS1/shadersmith) (GLSL shader contract validator) · [packmigrate](https://github.com/SalyyS1/packmigrate) · [packmerge](https://github.com/SalyyS1/packmerge) · [glyphsmith](https://github.com/SalyyS1/glyphsmith).
 
-Minecraft tooling remains part of my background, but it is not the focus of this profile.
+**Languages:** Rust, Go, Kotlin, Python, TypeScript, Java<br>
+**Runtime &amp; UI:** Tauri 2, KVM / Cloud Hypervisor, React, Svelte, GitHub Actions, MCP
 
 </details>
 
-<p align="center"><a href="https://discord.gg/WMFcNr23kJ">Discord</a> · <a href="https://www.facebook.com/saly.0105">Facebook</a> · <a href="https://www.instagram.com/saly_0105/">Instagram</a> · <a href="https://open.spotify.com/user/31d4qdaigoosddkp7kn47sfp6od4">Spotify</a></p>
+<p align="center"><a href="https://salyyy.site/">Website</a> · <a href="https://discord.gg/WMFcNr23kJ">Discord</a> · <a href="https://www.facebook.com/saly.0105">Facebook</a> · <a href="https://www.instagram.com/saly_0105/">Instagram</a> · <a href="https://open.spotify.com/user/31d4qdaigoosddkp7kn47sfp6od4">Spotify</a></p>

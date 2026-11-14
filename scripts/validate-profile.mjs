@@ -17,6 +17,7 @@ for (const p of config.projects) {
   assert.ok(readme.includes(`href="https://github.com/${config.login}/${p.repo}"`));
 }
 assert.ok(!readme.includes('moonlit-midautumn'));
-assert.match(readme, /<table>[\s\S]*MCP Slim[\s\S]*LoRASpectra[\s\S]*SLClean[\s\S]*SLTerm[\s\S]*Foliora[\s\S]*Stella Bot[\s\S]*<\/table>/);
+assert.match(readme, /<table>[\s\S]*MCP Slim[\s\S]*LoRASpectra[\s\S]*OmniVM[\s\S]*SLClean[\s\S]*SLTerm[\s\S]*Foliora[\s\S]*<\/table>/);
 assert.doesNotMatch(readme, /DiscordsRPC/);
+assert.doesNotMatch(readme, /what-changed/);
 console.log(`Validated text-first README, ${files.length} SVG assets and all project links.`);

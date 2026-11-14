@@ -6,42 +6,61 @@
       "repo": "mcp-slim",
       "category": "AI / MCP INFRASTRUCTURE",
       "title": "MCP Slim",
-      "description": "A zero-dependency MCP stdio proxy that trims tool schema tokens by 48.8% and redacts secrets in under 1 ms.",
+      "description": "Zero-dependency MCP stdio proxy and server that trims tool schema tokens by 48.8%, validates root unions, and vaults secrets in under 1 ms.",
       "lines": ["Zero-dependency MCP stdio proxy.", "Cuts schema tokens by 48.8% in <1 ms."],
       "stack": "Python · MCP · JSON-RPC",
       "motif": "proxy",
       "status": "RELEASED",
-      "statusLabel": "Released"
+      "statusLabel": "Released · v0.7.0",
+      "extraLinkLabel": "Releases",
+      "extraLinkUrl": "https://github.com/SalyyS1/mcp-slim/releases"
     },
     {
       "repo": "loraspectra",
       "category": "AI / MODEL MERGING",
       "title": "LoRASpectra",
-      "description": "Spectral QR-Core SVD auditor, Eckart-Young dynamic rank compressor and orthogonal subspace merger for .safetensors LoRA adapters.",
+      "description": "Spectral QR-Core SVD auditor, Eckart-Young dynamic rank compressor, SFT dead-row detector, and orthogonal subspace merger for .safetensors LoRAs.",
       "lines": ["QR-Core SVD auditor & rank compressor.", "Orthogonal subspace merge for .safetensors."],
       "stack": "Rust · Safetensors · SVD",
       "motif": "spectra",
       "status": "RELEASED",
-      "statusLabel": "Released"
+      "statusLabel": "Released · v0.7.0",
+      "extraLinkLabel": "Web playground",
+      "extraLinkUrl": "https://salyys1.github.io/loraspectra/"
+    },
+    {
+      "repo": "omnivm",
+      "category": "CLOUD / MICROVM RUNTIME",
+      "title": "OmniVM",
+      "description": "Scale-to-zero Linux microVM orchestrator on Cloud Hypervisor and KVM with single-flight wake coalescing and virtio-vsock readiness probes.",
+      "lines": ["Scale-to-zero Linux microVMs on KVM.", "Sub-second snapshot wake for AI sandboxes."],
+      "stack": "Go · KVM · Cloud Hypervisor",
+      "motif": "vm",
+      "status": "RELEASED",
+      "statusLabel": "Released · v0.2.0",
+      "extraLinkLabel": "Releases",
+      "extraLinkUrl": "https://github.com/SalyyS1/omnivm/releases"
     },
     {
       "repo": "SLClean",
       "category": "DESKTOP UTILITY",
       "title": "SLClean",
-      "description": "A Windows disk utility for inspecting AI and developer caches, build artifacts, leftovers and duplicates before you clean.",
+      "description": "Windows disk and AI/developer cache utility with headless JSON CLI, WSL2/Docker .vhdx lock protection, and 105 static rules.",
       "lines": ["A clearer view of your machine.", "Review disk usage before you clean."],
       "stack": "Rust · Tauri · Windows",
       "motif": "clean",
       "status": "RELEASED",
-      "statusLabel": "Released"
+      "statusLabel": "Released · v0.4.0",
+      "extraLinkLabel": "Footprint explorer",
+      "extraLinkUrl": "https://salyys1.github.io/SLClean/"
     },
     {
       "repo": "SLTerm",
       "category": "DEVELOPER WORKSPACE",
       "title": "SLTerm",
-      "description": "A terminal turned into a flexible workspace, customized from Wave Terminal.",
-      "lines": ["A terminal made into a workspace.", "Customized from Wave Terminal."],
-      "stack": "Go · TypeScript · React",
+      "description": "Workspace-oriented terminal with Tauri 2, multi-agent team orchestration, encrypted secret store, and pastejacking security guards.",
+      "lines": ["A terminal made into a workspace.", "Multi-agent orchestration & paste guards."],
+      "stack": "Go · TypeScript · Tauri 2",
       "motif": "terminal",
       "status": "RELEASED",
       "statusLabel": "Released"
@@ -50,23 +69,12 @@
       "repo": "foliora",
       "category": "LOCAL-FIRST + AI",
       "title": "Foliora",
-      "description": "Source-backed context packs with reviewed exports and optional AI assistance.",
-      "lines": ["Documents into source-backed context.", "Reviewed exports. Optional AI assistance."],
+      "description": "Source-backed context packs with citation-grounded Markdown exports, SHA-256 audit digests, and optional AI assistance.",
+      "lines": ["Documents into source-backed context.", "Reviewed exports with SHA-256 digests."],
       "stack": "Rust · Tauri · React",
       "motif": "kit",
       "status": "EXPERIMENTAL / v0.1",
       "statusLabel": "Experimental · v0.1"
-    },
-    {
-      "repo": "discord-bot",
-      "category": "WORKFLOW AUTOMATION",
-      "title": "Stella Bot",
-      "description": "A Discord dashboard for moderation, tickets, leveling and community workflows.",
-      "lines": ["Community workflows in one dashboard.", "Moderation, tickets and bot management."],
-      "stack": "TypeScript · Next.js · Prisma",
-      "motif": "nodes",
-      "status": "PERSONAL PROJECT",
-      "statusLabel": "Personal project"
     }
   ],
   "links": {
