@@ -47,7 +47,7 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <details>
 <summary>CLI, static analysis &amp; verification suite</summary>
 
-- **[minecraftkit](https://github.com/SalyyS1/minecraftkit)** (v2.5.0 · [API explorer](https://salyys1.github.io/minecraftkit/)): 11-tool MCP server and multi-agent skill toolkit for Paper/Folia 1.20.1..26.3+ descriptor auditing, pack.mcmeta overlay generation, and RPG bytecode lookup.
+- **[minecraftkit](https://github.com/SalyyS1/minecraftkit)** (v2.6.0 · [API explorer](https://salyys1.github.io/minecraftkit/)): 13-tool MCP server and multi-agent skill toolkit for Paper/Folia 1.20.1..26.3+ server.properties/Netty tuning, item component validation, descriptor auditing, and RPG bytecode lookup.
 - **[foliascan](https://github.com/SalyyS1/foliascan)** (v0.6.0 · [Browser auditor](https://salyys1.github.io/foliascan/)): JVM bytecode static analyzer for Folia regionized multithreading with Moonrise async chunk generation, block-entity concurrency rules (FS087-FS090), and SARIF v2.1.0 call flows.
 - **[serverdoctor](https://github.com/SalyyS1/serverdoctor)** (v0.4.0 · [Web analyzer](https://salyys1.github.io/serverdoctor/)): 106-rule offline diagnostic auditor for Spark flamegraph hotspots, Netty contention, GC pauses, and Paper 26.3 schemas.
 - **[pluginscope](https://github.com/SalyyS1/pluginscope)** (v0.3.0 · [JAR inspector](https://salyys1.github.io/pluginscope/)): Paper 26.3+ api-version, Mojang-mapped bytecode verification, and cross-plugin service/event shading conflict matrix auditor with SARIF v2.1.0 output.
