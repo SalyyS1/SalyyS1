@@ -21,8 +21,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <sub>Python · MCP · JSON-RPC · Released · v1.0.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-loraspectra.dark.svg"><img src="assets/mark-loraspectra.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/loraspectra">LoRASpectra</a></h3>
-<p>Spectral QR-Core SVD auditor, multi-adapter merge conflict analyzer, dynamic rank compressor, and orthogonal subspace merger for .safetensors LoRAs.</p>
-<sub>Rust · Safetensors · SVD · Released · v0.9.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
+<p>Spectral QR-Core SVD auditor, budget-optimal heterogeneous rank allocator, PEFT rank_pattern exporter, and orthogonal subspace merger for .safetensors LoRAs.</p>
+<sub>Rust · Safetensors · SVD · Released · v1.0.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-omnivm.dark.svg"><img src="assets/mark-omnivm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/omnivm">OmniVM</a></h3>
@@ -47,8 +47,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <details>
 <summary>CLI, static analysis &amp; verification suite</summary>
 
-- **[minecraftkit](https://github.com/SalyyS1/minecraftkit)** (v2.3.0): MCP server and multi-agent skill toolkit for Paper/Folia migration auditing and crash-log diagnostics.
-- **[foliascan](https://github.com/SalyyS1/foliascan)** (v0.3.0): JVM bytecode static analyzer for Folia regionized multithreading with inter-procedural SARIF v2.1.0 call flows.
+- **[minecraftkit](https://github.com/SalyyS1/minecraftkit)** (v2.5.0 · [API explorer](https://salyys1.github.io/minecraftkit/)): 11-tool MCP server and multi-agent skill toolkit for Paper/Folia 1.20.1..26.3+ descriptor auditing, pack.mcmeta overlay generation, and RPG bytecode lookup.
+- **[foliascan](https://github.com/SalyyS1/foliascan)** (v0.4.0): JVM bytecode static analyzer for Folia regionized multithreading with Netty packet taint tracking and SARIF v2.1.0 call flows.
 - **[serverdoctor](https://github.com/SalyyS1/serverdoctor)** (v0.3.0 · [Web analyzer](https://salyys1.github.io/serverdoctor/)): 100-rule offline diagnostic auditor for server configs, GC pauses, and timings.
 - **[pluginscope](https://github.com/SalyyS1/pluginscope)** (v0.2.0 · [JAR inspector](https://salyys1.github.io/pluginscope/)): 70-rule static bytecode &amp; shading collision auditor for JVM plugin archives.
 - **[mcstage](https://github.com/SalyyS1/mcstage)** (v0.2.0): Standalone real-server integration test runner with console driving, file assertions, and JUnit XML output.
