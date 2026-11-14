@@ -54,8 +54,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 - **[glyphsmith](https://github.com/SalyyS1/glyphsmith)** (v0.3.0 · [Font auditor &amp; solver](https://salyys1.github.io/glyphsmith/)): Deterministic Minecraft bitmap font solver, multi-pack codepoint collision analyzer, and SARIF v2.1.0 pack auditor.
 - **[shadersmith](https://github.com/SalyyS1/shadersmith)** (v0.3.0 · [GLSL &amp; overlay auditor](https://salyys1.github.io/shadersmith/)): Minecraft 1.21.4..26.3 GLSL shader, post-effect graph, and std140 uniform block contract validator and migrator with SARIF v2.1.0 output.
 - **[packmerge](https://github.com/SalyyS1/packmerge)** (v0.3.0 · [Conflict matrix &amp; merger](https://salyys1.github.io/packmerge/)): Deterministic 1.20.1..26.3 multi-pack resource compiler with select/range_dispatch chaining, overlay merging, and SARIF v2.1.0 diagnostics.
+- **[packmigrate](https://github.com/SalyyS1/packmigrate)** (v0.3.0 · [Browser migrator](https://salyys1.github.io/packmigrate/)): Deterministic 1.20..26.3 CustomModelData override and overlay migrator with multi-predicate decision trees and SARIF v2.1.0 diagnostics.
 - **[mcstage](https://github.com/SalyyS1/mcstage)** (v0.2.0): Standalone real-server integration test runner with console driving, file assertions, and JUnit XML output.
-- **[packmigrate](https://github.com/SalyyS1/packmigrate)** (v0.2.0): Automated 1.14..26.3 resource pack format, shader, and item definition migrator.
 
 **Languages:** Rust, Go, Kotlin, Python, TypeScript, Java<br>
 **Runtime &amp; UI:** Tauri 2, KVM / Cloud Hypervisor, React, Svelte, GitHub Actions, MCP
