@@ -17,17 +17,17 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <table>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-mcp-slim.dark.svg"><img src="assets/mark-mcp-slim.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/mcp-slim">MCP Slim</a></h3>
-<p>Zero-dependency MCP stdio proxy and server that trims tool schema tokens by 48.8%, validates root unions, and vaults secrets in under 1 ms.</p>
-<sub>Python · MCP · JSON-RPC · Released · v0.7.0 · <a href="https://github.com/SalyyS1/mcp-slim/releases">Releases</a></sub>
+<p>Zero-dependency MCP stdio proxy and server that trims schema tokens by 48.8%, pins SHA-256 tool schemas against rug-pulls, and vaults secrets in under 1 ms.</p>
+<sub>Python · MCP · JSON-RPC · Released · v1.0.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-loraspectra.dark.svg"><img src="assets/mark-loraspectra.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/loraspectra">LoRASpectra</a></h3>
-<p>Spectral QR-Core SVD auditor, Eckart-Young dynamic rank compressor, SFT dead-row detector, and orthogonal subspace merger for .safetensors LoRAs.</p>
-<sub>Rust · Safetensors · SVD · Released · v0.7.0 · <a href="https://salyys1.github.io/loraspectra/">Web playground</a></sub>
+<p>Spectral QR-Core SVD auditor, multi-adapter merge conflict analyzer, dynamic rank compressor, and orthogonal subspace merger for .safetensors LoRAs.</p>
+<sub>Rust · Safetensors · SVD · Released · v0.9.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-omnivm.dark.svg"><img src="assets/mark-omnivm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/omnivm">OmniVM</a></h3>
 <p>Scale-to-zero Linux microVM orchestrator on Cloud Hypervisor and KVM with single-flight wake coalescing and virtio-vsock readiness probes.</p>
-<sub>Go · KVM · Cloud Hypervisor · Released · v0.2.0 · <a href="https://github.com/SalyyS1/omnivm/releases">Releases</a></sub>
+<sub>Go · KVM · Cloud Hypervisor · Released · v0.2.1 · <a href="https://github.com/SalyyS1/omnivm/releases">Releases</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slclean.dark.svg"><img src="assets/mark-slclean.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLClean">SLClean</a></h3>
 <p>Windows disk and AI/developer cache utility with headless JSON CLI, WSL2/Docker .vhdx lock protection, and 105 static rules.</p>
@@ -39,8 +39,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <sub>Go · TypeScript · Tauri 2 · Released</sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-foliora.dark.svg"><img src="assets/mark-foliora.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/foliora">Foliora</a></h3>
-<p>Source-backed context packs with citation-grounded Markdown exports, SHA-256 audit digests, and optional AI assistance.</p>
-<sub>Rust · Tauri · React · Experimental · v0.1</sub>
+<p>Source-backed context packs with fail-closed bundle verification, indirect prompt-injection scanning, and SHA-256 audit digests.</p>
+<sub>Rust · Tauri · React · Released · v0.2.0 · <a href="https://salyys1.github.io/foliora/">Docs</a></sub>
 </td></tr>
 </table>
 
