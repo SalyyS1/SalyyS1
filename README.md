@@ -17,12 +17,12 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <table>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-mcp-slim.dark.svg"><img src="assets/mark-mcp-slim.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/mcp-slim">MCP Slim</a></h3>
-<p>Zero-dependency MCP stdio proxy and server that trims schema tokens by 48.8%, pins SHA-256 tool schemas, guards resource URIs, and vaults secrets in under 1 ms.</p>
-<sub>Python · MCP · JSON-RPC · Released · v1.1.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
+<p>Zero-dependency MCP stdio proxy and server with sliding exponential token-window budgets, streaming chunk sanitization, SHA-256 schema pinning, and <1 ms secret vaulting.</p>
+<sub>Python · MCP · JSON-RPC · Released · v1.2.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-loraspectra.dark.svg"><img src="assets/mark-loraspectra.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/loraspectra">LoRASpectra</a></h3>
-<p>Spectral QR-Core SVD & DoRA directional/magnitude auditor, budget-optimal heterogeneous rank allocator, and orthogonal subspace merger for .safetensors LoRAs.</p>
-<sub>Rust · Safetensors · SVD · Released · v1.1.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
+<p>Spectral QR-Core SVD, rsLoRA, PiSSA residual, and DoRA auditor, budget-optimal heterogeneous rank allocator, and orthogonal subspace merger for .safetensors LoRAs.</p>
+<sub>Rust · Safetensors · SVD · Released · v1.2.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-omnivm.dark.svg"><img src="assets/mark-omnivm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/omnivm">OmniVM</a></h3>
@@ -35,8 +35,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slterm.dark.svg"><img src="assets/mark-slterm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLTerm">SLTerm</a></h3>
-<p>Workspace-oriented terminal with Tauri 2, multi-agent team orchestration, encrypted secret store, and pastejacking security guards.</p>
-<sub>Go · TypeScript · Tauri 2 · Released</sub>
+<p>Workspace-oriented terminal with Tauri 2, multi-agent team orchestration, encrypted secret store, and VT100 pastejacking & OSC 52 security guards.</p>
+<sub>Go · TypeScript · Tauri 2 · Released · v0.21.0 · <a href="https://salyys1.github.io/SLTerm/">Paste guard lab</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-foliora.dark.svg"><img src="assets/mark-foliora.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/foliora">Foliora</a></h3>
 <p>Source-backed context packs with fail-closed bundle verification, indirect prompt-injection scanning, and SHA-256 audit digests.</p>
