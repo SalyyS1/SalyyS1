@@ -17,8 +17,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <table>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-mcp-slim.dark.svg"><img src="assets/mark-mcp-slim.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/mcp-slim">MCP Slim</a></h3>
-<p>Zero-dependency MCP stdio proxy and server with sliding exponential token-window budgets, streaming chunk sanitization, SHA-256 schema pinning, and <1 ms secret vaulting.</p>
-<sub>Python · MCP · JSON-RPC · Released · v1.2.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
+<p>Zero-dependency MCP stdio proxy and 9-tool server with elicitation phishing firewall, roots/list privacy guards, token-window budgets, and SHA-256 schema pinning.</p>
+<sub>Python · MCP · JSON-RPC · Released · v1.3.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-loraspectra.dark.svg"><img src="assets/mark-loraspectra.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/loraspectra">LoRASpectra</a></h3>
 <p>Spectral QR-Core SVD, rsLoRA, PiSSA residual, and DoRA auditor, budget-optimal heterogeneous rank allocator, and orthogonal subspace merger for .safetensors LoRAs.</p>
