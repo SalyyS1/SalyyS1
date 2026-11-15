@@ -4,8 +4,24 @@ import { normalizeProfile } from './profile-data.mjs';
 import { setTimeout as delay } from 'node:timers/promises';
 
 async function requestGraphQL(payload) {
+  const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
+      if (token) {
+        const resp = await fetch('https://api.github.com/graphql', {
+          method: 'POST',
+          headers: {
+            'Authorization': `bearer ${token}`,
+            'Content-Type': 'application/json',
+            'User-Agent': 'SalyyS1-profile-refresh'
+          },
+          body: JSON.stringify(payload)
+        });
+        if (!resp.ok) {
+          throw new Error(`HTTP ${resp.status}: ${await resp.text()}`);
+        }
+        return await resp.json();
+      }
       return JSON.parse(execFileSync('gh', ['api', 'graphql', '--input', '-'], {
         input: JSON.stringify(payload), encoding: 'utf8', timeout: 45000,
         maxBuffer: 8 * 1024 * 1024, stdio: ['pipe', 'pipe', 'pipe']
@@ -47,6 +63,10 @@ do {
   cursor = user.repositories.pageInfo.hasNextPage ? user.repositories.pageInfo.endCursor : null;
 } while (cursor);
 user.repositories.nodes = repositories;
+if (user.contributionsCollection?.contributionCalendar?.weeks) {
+  const cal = user.contributionsCollection.contributionCalendar;
+  cal.totalContributions = cal.weeks.flatMap(w => w.contributionDays).reduce((sum, d) => sum + d.contributionCount, 0);
+}
 const snapshot = normalizeProfile(user, config.login, new Date().toISOString().slice(0, 10));
 for (const project of config.projects) {
   if (!snapshot.repositories.some(r => r.name === project.repo)) throw new Error(`Featured repository unavailable: ${project.repo}`);
