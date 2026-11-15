@@ -21,8 +21,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <sub>Python · MCP · JSON-RPC · Released · v1.3.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-loraspectra.dark.svg"><img src="assets/mark-loraspectra.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/loraspectra">LoRASpectra</a></h3>
-<p>Spectral QR-Core SVD, rsLoRA, PiSSA residual, and DoRA auditor, budget-optimal heterogeneous rank allocator, and orthogonal subspace merger for .safetensors LoRAs.</p>
-<sub>Rust · Safetensors · SVD · Released · v1.2.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
+<p>Spectral QR-Core SVD, NF4/FP4/INT8 quantization & truncation bound auditor, rsLoRA/PiSSA/DoRA checker, budget-optimal rank allocator, and orthogonal subspace merger.</p>
+<sub>Rust · Safetensors · SVD · Released · v1.3.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-omnivm.dark.svg"><img src="assets/mark-omnivm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/omnivm">OmniVM</a></h3>
