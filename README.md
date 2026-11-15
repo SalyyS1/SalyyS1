@@ -39,8 +39,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <sub>Go · TypeScript · Tauri 2 · Released · v0.21.0 · <a href="https://salyys1.github.io/SLTerm/">Paste guard lab</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-foliora.dark.svg"><img src="assets/mark-foliora.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/foliora">Foliora</a></h3>
-<p>Source-backed context packs with fail-closed bundle verification, indirect prompt-injection scanning, and SHA-256 audit digests.</p>
-<sub>Rust · Tauri · React · Released · v0.2.0 · <a href="https://salyys1.github.io/foliora/">Docs</a></sub>
+<p>Multi-modal PDF/DOCX/TXT context packs with SHA-256 chunk deduplication, token-budget allocation, fail-closed bundle verification, and prompt-injection scanning.</p>
+<sub>Rust · Tauri · WebCrypto · Released · v0.3.0 · <a href="https://salyys1.github.io/foliora/">Bundle verifier</a></sub>
 </td></tr>
 </table>
 

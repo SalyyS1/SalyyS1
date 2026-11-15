@@ -71,13 +71,13 @@
       "repo": "foliora",
       "category": "LOCAL-FIRST + AI",
       "title": "Foliora",
-      "description": "Source-backed context packs with fail-closed bundle verification, indirect prompt-injection scanning, and SHA-256 audit digests.",
-      "lines": ["Documents into source-backed context.", "Fail-closed bundle & archive verifier."],
-      "stack": "Rust · Tauri · React",
+      "description": "Multi-modal PDF/DOCX/TXT context packs with SHA-256 chunk deduplication, token-budget allocation, fail-closed bundle verification, and prompt-injection scanning.",
+      "lines": ["Documents into source-backed context.", "SHA-256 verifier & token budget lab."],
+      "stack": "Rust · Tauri · WebCrypto",
       "motif": "kit",
       "status": "RELEASED",
-      "statusLabel": "Released · v0.2.0",
-      "extraLinkLabel": "Docs",
+      "statusLabel": "Released · v0.3.0",
+      "extraLinkLabel": "Bundle verifier",
       "extraLinkUrl": "https://salyys1.github.io/foliora/"
     }
   ],
