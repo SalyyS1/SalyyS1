@@ -26,8 +26,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-omnivm.dark.svg"><img src="assets/mark-omnivm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/omnivm">OmniVM</a></h3>
-<p>Scale-to-zero Linux microVM orchestrator on Cloud Hypervisor and KVM with single-flight wake coalescing, LRU paused eviction quotas, and Prometheus/OpenMetrics telemetry.</p>
-<sub>Go · KVM · Cloud Hypervisor · Released · v0.3.0 · <a href="https://salyys1.github.io/omnivm/">Simulator</a></sub>
+<p>Scale-to-zero Linux microVM orchestrator on Cloud Hypervisor and KVM with Copy-on-Write snapshot branching (FICLONE reflinks), adaptive Linux KSM memory deduplication, single-flight wake coalescing, and Prometheus/OpenMetrics telemetry.</p>
+<sub>Go · KVM · Cloud Hypervisor · Released · v0.4.0 · <a href="https://salyys1.github.io/omnivm/">Simulator</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slclean.dark.svg"><img src="assets/mark-slclean.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLClean">SLClean</a></h3>
 <p>Windows disk and AI/developer cache utility with headless JSON CLI, WSL2/Docker .vhdx lock protection, and 105 static rules.</p>
