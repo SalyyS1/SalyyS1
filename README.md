@@ -21,8 +21,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <sub>Python · MCP · JSON-RPC · Released · v1.8.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-loraspectra.dark.svg"><img src="assets/mark-loraspectra.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/loraspectra">LoRASpectra</a></h3>
-<p>Spectral QR-Core SVD, cross-layer Grassmannian subspace alignment matrix (LS029-LS030), OFP8 E4M3/E5M2 scale validator (LS031-LS034), VeRA fingerprinter, subspace drift detector, budget-optimal rank allocator, and orthogonal subspace merger.</p>
-<sub>Rust · Safetensors · SVD · Released · v1.5.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
+<p>Spectral QR-Core SVD, TIES-Merging and DARE sign-conflict resolver with exact Frobenius energy ledger (LS035-LS038), Grassmannian subspace alignment, OFP8 E4M3/E5M2 scale validator, budget-optimal rank allocator, and orthogonal subspace merger.</p>
+<sub>Rust · Safetensors · SVD · Released · v1.6.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-omnivm.dark.svg"><img src="assets/mark-omnivm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/omnivm">OmniVM</a></h3>
@@ -47,7 +47,7 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <details>
 <summary>CLI, static analysis &amp; verification suite</summary>
 
-- **[minecraftkit](https://github.com/SalyyS1/minecraftkit)** (v2.8.0 · [API explorer](https://salyys1.github.io/minecraftkit/) · [Diagnostics Lab](https://salyys1.github.io/minecraftkit/playground.html)): 17-tool MCP server and multi-agent skill toolkit with Spark flamegraph hotspot classifier (SPARK-001..008), Folia 4-domain scheduler trace analysis (FOLIA-TRC-001..007), item component validation, crash triage, and datapack verification.
+- **[minecraftkit](https://github.com/SalyyS1/minecraftkit)** (v2.9.0 · [API explorer](https://salyys1.github.io/minecraftkit/) · [Diagnostics Lab](https://salyys1.github.io/minecraftkit/playground.html)): 19-tool MCP server and multi-agent skill toolkit with Netty StreamCodec wire-budget auditor (NETTY-001..008), HikariCP/SQLite persistence auditor (SQL-001..007), Spark flamegraph hotspot classifier, and Folia 4-domain scheduler trace verifier.
 - **[foliascan](https://github.com/SalyyS1/foliascan)** (v0.9.0 · [Browser auditor](https://salyys1.github.io/foliascan/)): JVM bytecode static analyzer for Folia regionized multithreading with 105 concurrency rules, inter-procedural CHA interface dispatch, Kotlin coroutine Continuation.resumeWith suspension tracking, and synthetic benchmark suite (FS101-FS105).
 - **[serverdoctor](https://github.com/SalyyS1/serverdoctor)** (v0.7.0 · [Web analyzer](https://salyys1.github.io/serverdoctor/)): 123-rule offline diagnostic auditor and 10-tool MCP server for 1.21.4+ remapper and DataComponent errors, Spark ProGuard/Tiny/TSRG stack deobfuscation, Folia scheduler affinity traces, and Paper 26.3 tuning.
 - **[pluginscope](https://github.com/SalyyS1/pluginscope)** (v0.6.0 · [JAR &amp; graph inspector](https://salyys1.github.io/pluginscope/)): Paper 1.21.4+..26.3+ PluginRemapper and NMS reflection scanner (J075, J076), transitive META-INF/versions collision detector (S071), cross-plugin ASM dataflow leak analysis (J074, S070), and multi-loader dependency graph validation.
