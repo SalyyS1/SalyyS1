@@ -71,12 +71,12 @@
       "repo": "foliora",
       "category": "LOCAL-FIRST + AI",
       "title": "Foliora",
-      "description": "Multi-modal context packs with interactive HTML/SVG citation graph bundle generator, coordinate-aware native PDF table extraction, and Ed25519 bundle signing.",
-      "lines": ["Interactive HTML/SVG citation graph & PDF tables.", "Ed25519 bundle signing & standalone CLI."],
+      "description": "Multi-modal context packs with Reciprocal Rank Fusion (RRF) hybrid BM25+ & dense retrieval evaluator, cross-chunk numerical/date/polarity contradiction detector (FP005-FP007), OASIS SARIF v2.1.0 security audit, interactive HTML/SVG citation graph, and Ed25519 signing.",
+      "lines": ["Hybrid RRF retrieval evaluator & FP005-FP007 contradictions.", "SARIF v2.1.0 audit, HTML/SVG citation graph & Ed25519 signing."],
       "stack": "Rust · Tauri · WebCrypto",
       "motif": "kit",
       "status": "RELEASED",
-      "statusLabel": "Released · v0.5.0",
+      "statusLabel": "Released · v0.6.0",
       "extraLinkLabel": "Bundle verifier",
       "extraLinkUrl": "https://salyys1.github.io/foliora/"
     }
