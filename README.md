@@ -26,8 +26,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-omnivm.dark.svg"><img src="assets/mark-omnivm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/omnivm">OmniVM</a></h3>
-<p>Scale-to-zero Linux microVM orchestrator on Cloud Hypervisor and KVM with zero-network virtio-vsock stream multiplexing, dynamic cgroup v2 memory.high watermark governor, warm-pool MADV_POPULATE_WRITE pre-faulting, live migration, CoW branching, and KSM deduplication.</p>
-<sub>Go · KVM · Cloud Hypervisor · Released · v0.6.0 · <a href="https://salyys1.github.io/omnivm/">Simulator</a></sub>
+<p>Scale-to-zero Linux microVM orchestrator on Cloud Hypervisor and KVM with proactive KSM governor (fleet-density burst scaling & NUMA locality), sparse-extent page-cache disk pre-warming ahead of cold boot, Prometheus wake latency histograms, virtio-vsock stream multiplexing, and dynamic cgroup v2 watermarks.</p>
+<sub>Go · KVM · Cloud Hypervisor · Released · v0.7.0 · <a href="https://salyys1.github.io/omnivm/">Simulator</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slclean.dark.svg"><img src="assets/mark-slclean.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLClean">SLClean</a></h3>
 <p>Windows disk and AI/developer cache utility with duplicate AI weight blob scanning (--scan-dupes), OASIS SARIF v2.1.0 reporting, CI runner disk-budget gates (--max-reclaimable-gb), and WSL2/Docker .vhdx lock protection.</p>
