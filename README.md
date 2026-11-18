@@ -17,8 +17,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <table>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-mcp-slim.dark.svg"><img src="assets/mark-mcp-slim.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/mcp-slim">MCP Slim</a></h3>
-<p>Zero-dependency MCP stdio proxy and 11-tool server with streaming tool-call JSON repair (MS015), multi-server composite schema & $defs merger (MS016), recursive $ref depth guard (MS013), SSE burst budget throttling (MS011), and 16 SARIF v2.1.0 security rules.</p>
-<sub>Python · MCP · JSON-RPC · Released · v1.8.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
+<p>Zero-dependency MCP stdio proxy and 13-tool server with BM25+ intent-aware tool catalog pruner (MS017), JSON-RPC response correlation & batch firewall (MS018), streaming tool-call JSON repair (MS015), composite schema merger (MS016), and 18 SARIF v2.1.0 security rules.</p>
+<sub>Python · MCP · JSON-RPC · Released · v1.9.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-loraspectra.dark.svg"><img src="assets/mark-loraspectra.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/loraspectra">LoRASpectra</a></h3>
 <p>Spectral QR-Core SVD, TIES-Merging and DARE sign-conflict resolver with exact Frobenius energy ledger (LS035-LS038), Grassmannian subspace alignment, OFP8 E4M3/E5M2 scale validator, budget-optimal rank allocator, and orthogonal subspace merger.</p>
