@@ -30,8 +30,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <sub>Go · KVM · Cloud Hypervisor · Released · v0.6.0 · <a href="https://salyys1.github.io/omnivm/">Simulator</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slclean.dark.svg"><img src="assets/mark-slclean.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLClean">SLClean</a></h3>
-<p>Windows disk and AI/developer cache utility with headless JSON CLI, WSL2/Docker .vhdx lock protection, and 105 static rules.</p>
-<sub>Rust · Tauri · Windows · Released · v0.4.0 · <a href="https://salyys1.github.io/SLClean/">Footprint explorer</a></sub>
+<p>Windows disk and AI/developer cache utility with duplicate AI weight blob scanning (--scan-dupes), OASIS SARIF v2.1.0 reporting, CI runner disk-budget gates (--max-reclaimable-gb), and WSL2/Docker .vhdx lock protection.</p>
+<sub>Rust · Tauri · Windows · Released · v0.5.0 · <a href="https://salyys1.github.io/SLClean/">Footprint explorer</a></sub>
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slterm.dark.svg"><img src="assets/mark-slterm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLTerm">SLTerm</a></h3>
