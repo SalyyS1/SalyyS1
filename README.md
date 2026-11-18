@@ -35,8 +35,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slterm.dark.svg"><img src="assets/mark-slterm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLTerm">SLTerm</a></h3>
-<p>Workspace-oriented terminal with Tauri 2, multi-agent team orchestration, encrypted secret store, and VT100 pastejacking & OSC 52 security guards.</p>
-<sub>Go · TypeScript · Tauri 2 · Released · v0.21.0 · <a href="https://salyys1.github.io/SLTerm/">Paste guard lab</a></sub>
+<p>Workspace-oriented terminal with Tauri 2, multi-agent team orchestration, OpenSSH ProxyCommand & host-key auditor (SLT001-SLT010), ANSI-preserving output secret redactor, and SARIF v2.1.0 security lab.</p>
+<sub>Go · TypeScript · Tauri 2 · Released · v0.22.0 · <a href="https://salyys1.github.io/SLTerm/">Security lab</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-foliora.dark.svg"><img src="assets/mark-foliora.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/foliora">Foliora</a></h3>
 <p>Multi-modal context packs with interactive HTML/SVG citation graph bundle generator, coordinate-aware native PDF table extraction, and Ed25519 bundle signing.</p>
