@@ -21,8 +21,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <sub>Python · MCP · JSON-RPC · Released · v1.3.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-loraspectra.dark.svg"><img src="assets/mark-loraspectra.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/loraspectra">LoRASpectra</a></h3>
-<p>Spectral QR-Core SVD, NF4/FP4/INT8 quantization & truncation bound auditor, rsLoRA/PiSSA/DoRA checker, budget-optimal rank allocator, and orthogonal subspace merger.</p>
-<sub>Rust · Safetensors · SVD · Released · v1.3.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
+<p>Spectral QR-Core SVD, NF4/FP4/INT8 quantization and truncation bound auditor, VeRA scaling vector fingerprinter, subspace drift detector, rsLoRA/PiSSA/DoRA checker, budget-optimal rank allocator, and orthogonal subspace merger.</p>
+<sub>Rust · Safetensors · SVD · Released · v1.4.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-omnivm.dark.svg"><img src="assets/mark-omnivm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/omnivm">OmniVM</a></h3>
@@ -39,8 +39,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <sub>Go · TypeScript · Tauri 2 · Released · v0.21.0 · <a href="https://salyys1.github.io/SLTerm/">Paste guard lab</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-foliora.dark.svg"><img src="assets/mark-foliora.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/foliora">Foliora</a></h3>
-<p>Multi-modal PDF/DOCX/TXT context packs with SHA-256 chunk deduplication, token-budget allocation, fail-closed bundle verification, and prompt-injection scanning.</p>
-<sub>Rust · Tauri · WebCrypto · Released · v0.3.0 · <a href="https://salyys1.github.io/foliora/">Bundle verifier</a></sub>
+<p>Multi-modal context packs with citation graph exports (DOT and Mermaid), TF-IDF semantic chunk deduplication, streaming context-pack diff engine, and standalone CLI.</p>
+<sub>Rust · Tauri · WebCrypto · Released · v0.4.0 · <a href="https://salyys1.github.io/foliora/">Bundle verifier</a></sub>
 </td></tr>
 </table>
 
