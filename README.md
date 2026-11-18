@@ -17,17 +17,17 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <table>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-mcp-slim.dark.svg"><img src="assets/mark-mcp-slim.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/mcp-slim">MCP Slim</a></h3>
-<p>Zero-dependency MCP stdio proxy and 9-tool server with elicitation phishing firewall, roots/list privacy guards, token-window budgets, and SHA-256 schema pinning.</p>
-<sub>Python · MCP · JSON-RPC · Released · v1.3.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
+<p>Zero-dependency MCP stdio proxy and 9-tool server with SSE burst budget throttling (MS011), Prometheus latency histograms (MS012), tool-result injection & replay guards (MS009-MS010), elicitation firewall, and SHA-256 schema pinning.</p>
+<sub>Python · MCP · JSON-RPC · Released · v1.6.0 · <a href="https://salyys1.github.io/mcp-slim/">Playground</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-loraspectra.dark.svg"><img src="assets/mark-loraspectra.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/loraspectra">LoRASpectra</a></h3>
-<p>Spectral QR-Core SVD, NF4/FP4/INT8 quantization and truncation bound auditor, VeRA scaling vector fingerprinter, subspace drift detector, rsLoRA/PiSSA/DoRA checker, budget-optimal rank allocator, and orthogonal subspace merger.</p>
-<sub>Rust · Safetensors · SVD · Released · v1.4.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
+<p>Spectral QR-Core SVD, cross-layer Grassmannian subspace alignment matrix (LS029-LS030), OFP8 E4M3/E5M2 scale validator (LS031-LS034), VeRA fingerprinter, subspace drift detector, budget-optimal rank allocator, and orthogonal subspace merger.</p>
+<sub>Rust · Safetensors · SVD · Released · v1.5.0 · <a href="https://salyys1.github.io/loraspectra/">Web inspector</a></sub>
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-omnivm.dark.svg"><img src="assets/mark-omnivm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/omnivm">OmniVM</a></h3>
-<p>Scale-to-zero Linux microVM orchestrator on Cloud Hypervisor and KVM with Copy-on-Write snapshot branching (FICLONE reflinks), adaptive Linux KSM memory deduplication, single-flight wake coalescing, and Prometheus/OpenMetrics telemetry.</p>
-<sub>Go · KVM · Cloud Hypervisor · Released · v0.4.0 · <a href="https://salyys1.github.io/omnivm/">Simulator</a></sub>
+<p>Scale-to-zero Linux microVM orchestrator on Cloud Hypervisor and KVM with zero-network virtio-vsock stream multiplexing, dynamic cgroup v2 memory.high watermark governor, warm-pool MADV_POPULATE_WRITE pre-faulting, live migration, CoW branching, and KSM deduplication.</p>
+<sub>Go · KVM · Cloud Hypervisor · Released · v0.6.0 · <a href="https://salyys1.github.io/omnivm/">Simulator</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slclean.dark.svg"><img src="assets/mark-slclean.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLClean">SLClean</a></h3>
 <p>Windows disk and AI/developer cache utility with headless JSON CLI, WSL2/Docker .vhdx lock protection, and 105 static rules.</p>
@@ -53,8 +53,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 - **[pluginscope](https://github.com/SalyyS1/pluginscope)** (v0.5.0 · [JAR inspector](https://salyys1.github.io/pluginscope/)): Cross-plugin ASM dataflow leak analysis (J074, S070), paper-plugin.yml multi-loader dependency graph validation (J043, S005..S007), and shading conflict matrix with SARIF v2.1.0 output.
 - **[glyphsmith](https://github.com/SalyyS1/glyphsmith)** (v0.5.0 · [Font auditor &amp; solver](https://salyys1.github.io/glyphsmith/)): Variable font optical sizing axis compiler (opsz), Unicode 16.0 plane coverage validator, horizontal 3x LCD sub-pixel glyph rasterizer, format 97 dual-era font providers, and SARIF v2.1.0 pack auditor.
 - **[shadersmith](https://github.com/SalyyS1/shadersmith)** (v0.5.0 · [GLSL &amp; SSBO auditor](https://salyys1.github.io/shadersmith/)): GLSL std430 SSBO layout validator, compute shader barrier hazard analysis, Wavelet OIT permutations, and SPIR-V cross-compilation checks with SARIF v2.1.0 output.
-- **[packmerge](https://github.com/SalyyS1/packmerge)** (v0.4.0 · [Conflict matrix &amp; merger](https://salyys1.github.io/packmerge/)): Deterministic 1.20.1..26.3 multi-pack resource compiler with 64-bit 2D DCT pHash &amp; overlay deduplication, override tree pruning, 26.3 sound atlas audit, and SARIF v2.1.0 diagnostics.
-- **[packmigrate](https://github.com/SalyyS1/packmigrate)** (v0.4.0 · [Browser migrator](https://salyys1.github.io/packmigrate/)): Deterministic 1.20..26.3 CustomModelData override and overlay migrator with dual-era pHash deduplication, modern component override compiler, format 97 overlay generator, and PM001..PM016 SARIF.
+- **[packmerge](https://github.com/SalyyS1/packmerge)** (v0.5.0 · [Conflict matrix &amp; merger](https://salyys1.github.io/packmerge/)): Deterministic 1.20.1..26.3 multi-pack resource compiler with cross-namespace atlas sprite resolver (PM019-PM020), OGG/Vorbis codec auditor (PM021-PM022), 64-bit 2D DCT pHash deduplication, and SARIF v2.1.0 diagnostics.
+- **[packmigrate](https://github.com/SalyyS1/packmigrate)** (v0.5.0 · [Browser migrator](https://salyys1.github.io/packmigrate/)): Deterministic 1.20..26.3 CustomModelData override and item component compiler with 4-pass Shannon cofactor predicate tree simplifier (PM019), 3-slice dual-era bundle exporter (PM020), and PM001..PM020 SARIF.
 - **[mcstage](https://github.com/SalyyS1/mcstage)** (v0.5.0 · [Matrix builder &amp; crash lab](https://salyys1.github.io/mcstage/)): Standalone Paper, Folia, and Purpur real-server integration test runner with assert-heap JVM heap assertions (MCS014), extends scenario inheritance, Folia multi-region lag injection, chunk barrier stall budgets, JUnit XML aggregation, and MCS001-MCS014 SARIF v2.1.0 output.
 
 **Languages:** Rust, Go, Kotlin, Python, TypeScript, Java<br>
