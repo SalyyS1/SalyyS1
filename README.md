@@ -39,8 +39,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 <sub>Go · TypeScript · Tauri 2 · Released · v0.22.0 · <a href="https://salyys1.github.io/SLTerm/">Security lab</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-foliora.dark.svg"><img src="assets/mark-foliora.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/foliora">Foliora</a></h3>
-<p>Multi-modal context packs with Reciprocal Rank Fusion (RRF) hybrid BM25+ & dense retrieval evaluator, cross-chunk numerical/date/polarity contradiction detector (FP005-FP007), OASIS SARIF v2.1.0 security audit, interactive HTML/SVG citation graph, and Ed25519 signing.</p>
-<sub>Rust · Tauri · WebCrypto · Released · v0.6.0 · <a href="https://salyys1.github.io/foliora/">Bundle verifier</a></sub>
+<p>Multi-modal context packs with claim-to-evidence numerical and unit entailment verifier (FP008-FP010), Merkle-tree selective context-pack inclusion proofs, Reciprocal Rank Fusion (RRF) hybrid retrieval evaluator, OASIS SARIF v2.1.0 security audit, interactive citation graph, and Ed25519 signing.</p>
+<sub>Rust · Tauri · WebCrypto · Released · v0.7.0 · <a href="https://salyys1.github.io/foliora/">Bundle verifier</a></sub>
 </td></tr>
 </table>
 

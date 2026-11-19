@@ -86,15 +86,15 @@
       "repo": "foliora",
       "category": "LOCAL-FIRST + AI",
       "title": "Foliora",
-      "description": "Multi-modal context packs with Reciprocal Rank Fusion (RRF) hybrid BM25+ & dense retrieval evaluator, cross-chunk numerical/date/polarity contradiction detector (FP005-FP007), OASIS SARIF v2.1.0 security audit, interactive HTML/SVG citation graph, and Ed25519 signing.",
+      "description": "Multi-modal context packs with claim-to-evidence numerical and unit entailment verifier (FP008-FP010), Merkle-tree selective context-pack inclusion proofs, Reciprocal Rank Fusion (RRF) hybrid retrieval evaluator, OASIS SARIF v2.1.0 security audit, interactive citation graph, and Ed25519 signing.",
       "lines": [
-        "Hybrid RRF retrieval evaluator & FP005-FP007 contradictions.",
-        "SARIF v2.1.0 audit, HTML/SVG citation graph & Ed25519 signing."
+        "Entailment verifier (FP008-FP010) & Merkle selective proofs.",
+        "Hybrid RRF retrieval, SARIF v2.1.0 audit & Ed25519 signing."
       ],
       "stack": "Rust · Tauri · WebCrypto",
       "motif": "kit",
       "status": "RELEASED",
-      "statusLabel": "Released · v0.6.0",
+      "statusLabel": "Released · v0.7.0",
       "extraLinkLabel": "Bundle verifier",
       "extraLinkUrl": "https://salyys1.github.io/foliora/"
     }
