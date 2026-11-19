@@ -26,12 +26,12 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-omnivm.dark.svg"><img src="assets/mark-omnivm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/omnivm">OmniVM</a></h3>
-<p>Scale-to-zero Linux microVM orchestrator on Cloud Hypervisor and KVM with multi-tenant token-bucket virtio-blk and virtio-net I/O QoS rate governor (weighted max-min fair shares), static Linux seccomp-bpf profile auditor (OVM-SEC-001..010) with OASIS SARIF v2.1.0 reporting, proactive KSM governor, and Prometheus wake latency histograms.</p>
-<sub>Go · KVM · Cloud Hypervisor · Released · v0.8.0 · <a href="https://salyys1.github.io/omnivm/">Simulator</a></sub>
+<p>Scale-to-zero Linux microVM orchestrator and 22-tool MCP server on Cloud Hypervisor and KVM with shared Virtio-FS/PMEM DAX rootfs cache pooling, per-tenant egress CIDR/DNS policy firewall and atomic nftables compiler (OVM-NET-001..008 SARIF v2.1.0), multi-tenant token-bucket I/O QoS, and seccomp-bpf auditing.</p>
+<sub>Go · KVM · Cloud Hypervisor · Released · v0.9.0 · <a href="https://salyys1.github.io/omnivm/">Simulator</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slclean.dark.svg"><img src="assets/mark-slclean.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLClean">SLClean</a></h3>
-<p>Windows disk and AI/developer cache utility with duplicate AI weight blob scanning (--scan-dupes), OASIS SARIF v2.1.0 reporting, CI runner disk-budget gates (--max-reclaimable-gb), and WSL2/Docker .vhdx lock protection.</p>
-<sub>Rust · Tauri · Windows · Released · v0.5.0 · <a href="https://salyys1.github.io/SLClean/">Footprint explorer</a></sub>
+<p>Windows disk and AI/developer cache utility with age-weighted orphaned Python/Node/Rust environment reclaimer (--scan-envs, SLC006-SLC008), duplicate AI weight blob scanning (--scan-dupes), composite GitHub Action, CI disk-budget gates, and WSL2/Docker .vhdx lock protection.</p>
+<sub>Rust · Tauri · Windows · Released · v0.6.0 · <a href="https://salyys1.github.io/SLClean/">Footprint explorer</a></sub>
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slterm.dark.svg"><img src="assets/mark-slterm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLTerm">SLTerm</a></h3>

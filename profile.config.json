@@ -38,15 +38,15 @@
       "repo": "omnivm",
       "category": "CLOUD / MICROVM RUNTIME",
       "title": "OmniVM",
-      "description": "Scale-to-zero Linux microVM orchestrator on Cloud Hypervisor and KVM with multi-tenant token-bucket virtio-blk and virtio-net I/O QoS rate governor (weighted max-min fair shares), static Linux seccomp-bpf profile auditor (OVM-SEC-001..010) with OASIS SARIF v2.1.0 reporting, proactive KSM governor, and Prometheus wake latency histograms.",
+      "description": "Scale-to-zero Linux microVM orchestrator and 22-tool MCP server on Cloud Hypervisor and KVM with shared Virtio-FS/PMEM DAX rootfs cache pooling, per-tenant egress CIDR/DNS policy firewall and atomic nftables compiler (OVM-NET-001..008 SARIF v2.1.0), multi-tenant token-bucket I/O QoS, and seccomp-bpf auditing.",
       "lines": [
-        "Multi-tenant I/O QoS governor & seccomp auditor.",
-        "Scale-to-zero Linux microVMs on KVM & Cloud Hypervisor."
+        "Virtio-FS/PMEM DAX pool & egress CIDR/DNS firewall.",
+        "22-tool MCP server, I/O QoS & seccomp SARIF auditor."
       ],
       "stack": "Go · KVM · Cloud Hypervisor",
       "motif": "vm",
       "status": "RELEASED",
-      "statusLabel": "Released · v0.8.0",
+      "statusLabel": "Released · v0.9.0",
       "extraLinkLabel": "Simulator",
       "extraLinkUrl": "https://salyys1.github.io/omnivm/"
     },
@@ -54,15 +54,15 @@
       "repo": "SLClean",
       "category": "DESKTOP UTILITY",
       "title": "SLClean",
-      "description": "Windows disk and AI/developer cache utility with duplicate AI weight blob scanning (--scan-dupes), OASIS SARIF v2.1.0 reporting, CI runner disk-budget gates (--max-reclaimable-gb), and WSL2/Docker .vhdx lock protection.",
+      "description": "Windows disk and AI/developer cache utility with age-weighted orphaned Python/Node/Rust environment reclaimer (--scan-envs, SLC006-SLC008), duplicate AI weight blob scanning (--scan-dupes), composite GitHub Action, CI disk-budget gates, and WSL2/Docker .vhdx lock protection.",
       "lines": [
-        "Duplicate AI weight blob scanning & SARIF.",
-        "Enforce CI runner disk-budget gates."
+        "Orphaned env reclaimer (--scan-envs) & AI blob dupes.",
+        "SLC001-SLC008 SARIF v2.1.0 & composite GitHub Action."
       ],
       "stack": "Rust · Tauri · Windows",
       "motif": "clean",
       "status": "RELEASED",
-      "statusLabel": "Released · v0.5.0",
+      "statusLabel": "Released · v0.6.0",
       "extraLinkLabel": "Footprint explorer",
       "extraLinkUrl": "https://salyys1.github.io/SLClean/"
     },
