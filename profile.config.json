@@ -22,15 +22,15 @@
       "repo": "loraspectra",
       "category": "AI / MODEL MERGING",
       "title": "LoRASpectra",
-      "description": "Spectral QR-Core SVD, LoRA-GA gradient-aligned spectral initializer and cross-checkpoint orthogonal projector (LS039-LS042), TIES-Merging and DARE sign-conflict resolver (LS035-LS038), OFP8 E4M3/E5M2 scale validator, and budget-optimal rank allocator.",
+      "description": "Spectral QR-Core SVD, Knots joint-SVD subspace alignment, isotropic flattening and TSV Procrustes solver (LS043-LS046), LoRA-GA spectral initializer (LS039-LS042), TIES-Merging and DARE sign-conflict resolver, OFP8 E4M3/E5M2 validator, and rank allocator.",
       "lines": [
-        "LoRA-GA initializer & orthogonal projector (LS039-LS042).",
-        "TIES/DARE Frobenius ledger & QR-Core SVD for .safetensors."
+        "Knots joint-SVD, isotropic flattening & TSV Procrustes (LS043-LS046).",
+        "LoRA-GA initializer, TIES/DARE ledger & QR-Core SVD for .safetensors."
       ],
       "stack": "Rust · Safetensors · SVD",
       "motif": "spectra",
       "status": "RELEASED",
-      "statusLabel": "Released · v1.7.0",
+      "statusLabel": "Released · v1.8.0",
       "extraLinkLabel": "Web inspector",
       "extraLinkUrl": "https://salyys1.github.io/loraspectra/"
     },
@@ -38,15 +38,15 @@
       "repo": "omnivm",
       "category": "CLOUD / MICROVM RUNTIME",
       "title": "OmniVM",
-      "description": "Scale-to-zero Linux microVM orchestrator and 22-tool MCP server on Cloud Hypervisor and KVM with shared Virtio-FS/PMEM DAX rootfs cache pooling, per-tenant egress CIDR/DNS policy firewall and atomic nftables compiler (OVM-NET-001..008 SARIF v2.1.0), multi-tenant token-bucket I/O QoS, and seccomp-bpf auditing.",
+      "description": "Scale-to-zero Linux microVM orchestrator and MCP server on Cloud Hypervisor and KVM with unprivileged VMM chroot/namespace jails, daemonless survival leases, sparse memory hibernation, shared Virtio-FS/PMEM DAX rootfs pools, egress CIDR/DNS firewall, and token-bucket I/O QoS.",
       "lines": [
-        "Virtio-FS/PMEM DAX pool & egress CIDR/DNS firewall.",
-        "22-tool MCP server, I/O QoS & seccomp SARIF auditor."
+        "Unprivileged VMM jails, survival leases & sparse hibernation.",
+        "Virtio-FS/PMEM DAX pool, egress firewall & I/O QoS governor."
       ],
       "stack": "Go · KVM · Cloud Hypervisor",
       "motif": "vm",
       "status": "RELEASED",
-      "statusLabel": "Released · v0.9.0",
+      "statusLabel": "Released · v1.0.0",
       "extraLinkLabel": "Simulator",
       "extraLinkUrl": "https://salyys1.github.io/omnivm/"
     },
