@@ -70,15 +70,15 @@
       "repo": "SLTerm",
       "category": "DEVELOPER WORKSPACE",
       "title": "SLTerm",
-      "description": "Workspace-oriented terminal with Tauri 2, multi-agent team orchestration, OpenSSH ProxyCommand & host-key auditor (SLT001-SLT010), ANSI-preserving output secret redactor, and SARIF v2.1.0 security lab.",
+      "description": "Workspace-oriented terminal on Tauri 2, Go, and xterm.js with Shell & Agent Execution Risk Firewall (pkg/cmdguard, SLT011-SLT016), OpenSSH ProxyCommand & host-key auditor (SLT001-SLT010), ANSI-preserving output secret redactor, and 4-tab SARIF v2.1.0 Security Lab.",
       "lines": [
-        "SSH ProxyCommand auditor & output redactor.",
-        "Multi-agent orchestration & paste guards."
+        "Shell & agent command firewall (SLT011-SLT016) & SSH auditor.",
+        "Output secret redactor, paste guards & Tauri 2 workspace."
       ],
       "stack": "Go · TypeScript · Tauri 2",
       "motif": "terminal",
       "status": "RELEASED",
-      "statusLabel": "Released · v0.22.0",
+      "statusLabel": "Released · v0.23.0",
       "extraLinkLabel": "Security lab",
       "extraLinkUrl": "https://salyys1.github.io/SLTerm/"
     },

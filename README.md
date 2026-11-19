@@ -35,8 +35,8 @@ I build focused, verifiable software for real engineering workflows: MCP infrast
 </td></tr>
 <tr><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-slterm.dark.svg"><img src="assets/mark-slterm.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/SLTerm">SLTerm</a></h3>
-<p>Workspace-oriented terminal with Tauri 2, multi-agent team orchestration, OpenSSH ProxyCommand & host-key auditor (SLT001-SLT010), ANSI-preserving output secret redactor, and SARIF v2.1.0 security lab.</p>
-<sub>Go · TypeScript · Tauri 2 · Released · v0.22.0 · <a href="https://salyys1.github.io/SLTerm/">Security lab</a></sub>
+<p>Workspace-oriented terminal on Tauri 2, Go, and xterm.js with Shell & Agent Execution Risk Firewall (pkg/cmdguard, SLT011-SLT016), OpenSSH ProxyCommand & host-key auditor (SLT001-SLT010), ANSI-preserving output secret redactor, and 4-tab SARIF v2.1.0 Security Lab.</p>
+<sub>Go · TypeScript · Tauri 2 · Released · v0.23.0 · <a href="https://salyys1.github.io/SLTerm/">Security lab</a></sub>
 </td><td width="50%" valign="top">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/mark-foliora.dark.svg"><img src="assets/mark-foliora.light.svg" width="48" height="48" align="right" alt=""></picture><h3><a href="https://github.com/SalyyS1/foliora">Foliora</a></h3>
 <p>Multi-modal context packs with claim-to-evidence numerical and unit entailment verifier (FP008-FP010), Merkle-tree selective context-pack inclusion proofs, Reciprocal Rank Fusion (RRF) hybrid retrieval evaluator, OASIS SARIF v2.1.0 security audit, interactive citation graph, and Ed25519 signing.</p>
