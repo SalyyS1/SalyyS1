@@ -1,6 +1,6 @@
 {
   "login": "SalyyS1",
-  "fetchedAt": "2026-11-25",
+  "fetchedAt": "2026-11-26",
   "repositories": [
     {
       "name": "20-10",
@@ -227,7 +227,7 @@
     {
       "name": "SLTerm",
       "url": "https://github.com/SalyyS1/SLTerm",
-      "language": "Go",
+      "language": "TypeScript",
       "stars": 1
     },
     {
@@ -268,7 +268,7 @@
     }
   ],
   "calendar": {
-    "totalContributions": 2133,
+    "totalContributions": 2170,
     "weeks": [
       {
         "contributionDays": [
@@ -2317,8 +2317,13 @@
           },
           {
             "date": "2026-11-25",
-            "contributionCount": 243,
+            "contributionCount": 280,
             "contributionLevel": "FOURTH_QUARTILE"
+          },
+          {
+            "date": "2026-11-26",
+            "contributionCount": 0,
+            "contributionLevel": "NONE"
           }
         ]
       }
